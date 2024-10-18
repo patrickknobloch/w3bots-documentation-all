@@ -14,10 +14,7 @@ function HomepageHeader() {
     <div className="flex justify-center">
       <a className="inline-flex items-center gap-x-2 border border-neutral-600 text-xs text-white bg-neutral-800 p-2 px-3 rounded-full transition hover:border-gray-300 focus:outline-none focus:border-gray-300 dark:bg-neutral-800 dark:border-neutral-700 dark:text-neutral-400 dark:hover:border-neutral-600 dark:focus:border-neutral-600" href="#">
         Explore the Capital Product
-        <span className="flex items-center gap-x-1">
-          <span className="border-s border-neutral-600 text-white ps-2 dark:text-blue-500 dark:border-neutral-700">Explore</span>
-          <svg className="shrink-0 size-4 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-        </span>
+        
       </a>
     </div>
    
@@ -28,7 +25,9 @@ function HomepageHeader() {
     </div>
 
     <div className="mt-5 max-w-3xl text-center mx-auto">
-      <p className="text-lg text-neutral-500 dark:text-neutral-400">Preline is a large open-source project, crafted with Tailwind CSS framework by Hmlstream.</p>
+      <p className="text-lg text-neutral-500 dark:text-neutral-400">
+      We drive web3 adoption by developing innovative tools and bots that simplify complex processes and enhance user experience and engagement.
+      </p>
     </div>
 
     <div className="mt-8 gap-3 flex justify-center">
@@ -98,15 +97,15 @@ function Products() {
         </div>
 
         <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
-          <div className="h-52 flex flex-col justify-center items-center bg-green-300 rounded-t-xl">
-            <img src="img/auditylogo.svg" className='w-32 p-6 bg-neutral-900 rounded-2xl' />
+          <div className="h-52 flex flex-col justify-center items-center bg-cyan-300 rounded-t-xl">
+            <img src="img/swapylogo.svg" className='w-32 p-6 bg-neutral-900 rounded-2xl' />
           </div>
           <div className="p-4 md:p-6">
-            <span className="block mb-1 text-xs font-semibold uppercase text-green-300">
-              Security
+            <span className="block mb-1 text-xs font-semibold uppercase text-cyan-300">
+              Dex Aggregator
             </span>
             <h3 className="text-xl font-semibold text-white">
-              Audity
+              Swapy
             </h3>
             <p className="mt-3 text-neutral-300">
               A software that develops products for software developers and developments.
@@ -123,15 +122,15 @@ function Products() {
         </div>
 
         <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
-          <div className="h-52 flex flex-col justify-center items-center bg-green-300 rounded-t-xl">
+          <div className="h-52 flex flex-col justify-center items-center bg-indigo-500 rounded-t-xl">
             <img src="img/auditylogo.svg" className='w-32 p-6 bg-neutral-900 rounded-2xl' />
           </div>
           <div className="p-4 md:p-6">
-            <span className="block mb-1 text-xs font-semibold uppercase text-green-300">
-              Security
+            <span className="block mb-1 text-xs font-semibold uppercase text-indigo-300">
+              Trends & Fast Swaps
             </span>
             <h3 className="text-xl font-semibold text-white">
-              Audity
+              Trendy
             </h3>
             <p className="mt-3 text-neutral-300">
               A software that develops products for software developers and developments.
