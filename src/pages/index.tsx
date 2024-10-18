@@ -93,8 +93,8 @@ function Products() {
             <h3 className="text-xl font-semibold text-white">
               Audity
             </h3>
-            <p className="mt-3 text-neutral-300">
-              A software that develops products for software developers and developments.
+            <p className="mt-3 text-neutral-400">
+            Audity analyzes liquidity, holders, wash trading, smart contracts, and social metrics, generating a comprehensive score for cryptocurrency tokens.
             </p>
           </div>
           <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:border-neutral-700 dark:divide-neutral-700">
@@ -118,8 +118,8 @@ function Products() {
             <h3 className="text-xl font-semibold text-white">
               Swapy
             </h3>
-            <p className="mt-3 text-neutral-300">
-              A software that develops products for software developers and developments.
+            <p className="mt-3 text-neutral-400">
+            Swapy combines multiple DEX providers into a single access point to make token swaps seamless and efficient. Invest easily, securely and affordably in just a few steps.
             </p>
           </div>
           <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:border-neutral-700 dark:divide-neutral-700">
@@ -143,8 +143,8 @@ function Products() {
             <h3 className="text-xl font-semibold text-white">
               Trady
             </h3>
-            <p className="mt-3 text-neutral-300">
-              A software that develops products for software developers and developments.
+            <p className="mt-3 text-neutral-400">
+            Trady is an AI-powered automatic investment bot for tokens, managing investments and payouts seamlessly.
             </p>
           </div>
           <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:border-neutral-700 dark:divide-neutral-700">
