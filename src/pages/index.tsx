@@ -8,8 +8,19 @@ import Navbar from '@theme/Navbar';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (<header className=' text-white'>
-    
-      <div className=" relative overflow-hidden">
+    <svg
+      className="absolute inset-0 opacity-10 z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+      aria-hidden="true">
+      <defs>
+        <pattern id="0787a7c5-978c-4f66-83c7-11c213f99cb7" width="200" height="200" x="50%" y="-1"
+          patternUnits="userSpaceOnUse">
+          <path d="M.5 200V.5H200" fill="none"></path>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" stroke-width="0" fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)"></rect>
+    </svg>
+  
+      <div className=" relative overflow-hidden z-20">
   <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10">
     <div className="flex justify-center">
       <a className="inline-flex items-center gap-x-2 border border-neutral-600 text-xs text-white bg-neutral-800 p-2 px-3 rounded-full transition hover:border-gray-300 focus:outline-none focus:border-gray-300 dark:bg-neutral-800 dark:border-neutral-700 dark:text-neutral-400 dark:hover:border-neutral-600 dark:focus:border-neutral-600" href="#">
@@ -68,7 +79,7 @@ function Partnerships(){
 function Products() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <div className="bg-neutral-900 max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <div className="relative z-30 max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         
         <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
@@ -123,14 +134,14 @@ function Products() {
 
         <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
           <div className="h-52 flex flex-col justify-center items-center bg-indigo-500 rounded-t-xl">
-            <img src="img/auditylogo.svg" className='w-32 p-6 bg-neutral-900 rounded-2xl' />
+            <img src="img/tradylogo.svg" className='w-32 p-6 bg-neutral-900 rounded-2xl' />
           </div>
           <div className="p-4 md:p-6">
             <span className="block mb-1 text-xs font-semibold uppercase text-indigo-300">
-              Trends & Fast Swaps
+              AI based automatic Swap System
             </span>
             <h3 className="text-xl font-semibold text-white">
-              Trendy
+              Trady
             </h3>
             <p className="mt-3 text-neutral-300">
               A software that develops products for software developers and developments.
