@@ -1,19 +1,19 @@
 W3BOTS
-  label: W3BOTS
-  permalink: /WBOTS
-  description: Technology transforms into solutions.
+  label: "W3BOTS"
+  permalink: "/WBOTS"
+  description: Technology transforms into solutions."
 
 development:
-  label: development
-  permalink: /development
-  description: development tag description
+  label: "development"
+  permalink: "/development"
+  description: "development tag description"
 
 telegram:
-  label: telegram
-  permalink: /telegram
-  description: telegram tag description
+  label: "telegram"
+  permalink: "/telegram"
+  description: "telegram tag description"
 
 decentralization:
-  label: decentralization
-  permalink: /decentralization
-  description: decentralization tag description
+  label: "decentralization"
+  permalink: "/decentralization"
+  description: "decentralization tag description"
