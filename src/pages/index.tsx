@@ -7,7 +7,7 @@ import Navbar from '@theme/Navbar';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
-  return (<header className=' text-white'>
+  return (<header className=' text-white  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-neutral-500/20 via-slate-950/0 to-slate-950/0'>
     <svg
       className="absolute inset-0 opacity-10 z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
       aria-hidden="true">
@@ -197,6 +197,84 @@ function Stats(){
   );
 }
 
+function Benefits(){
+  return(
+    <div className="py-12 sm:py-16">
+  <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
+    <h2 className="text-center text-base/7 font-semibold text-neutral-600">Your benefits</h2>
+    <p className="mx-auto mt-2 max-w-lg text-pretty text-center text-4xl font-bold tracking-tight sm:text-5xl">
+    Bots and DApps with<br></br> a ease of use 
+    </p>
+    <div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-2">
+      <div className="relative lg:row-span-2">
+        <div className="absolute inset-px rounded-xl border border-neutral-700 text-white lg:rounded-l-[2rem]"></div>
+        <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
+          <div className="px-8 pb-3 pt-8 sm:px-10 sm:pb-0 sm:pt-10">
+            <p className="mt-2 text-lg/7 font-medium tracking-tight max-lg:text-center">User friendly</p>
+            <p className="mt-2 max-w-lg text-base text-neutral-400 max-lg:text-center">
+              Eine Beschreibung warum user freundlich sei es als bot im Messenger oder Webseite + langes Bild nach unten / Handy.
+            </p>
+          </div>
+          <div className="relative min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm">
+            <div className="absolute inset-x-10 bottom-0 top-10 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-neutral-700 bg-neutral-900 shadow-2xl">
+            </div>
+          </div>
+        </div>
+        <div className="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 lg:rounded-l-[2rem]"></div>
+      </div>
+      <div className="relative max-lg:row-start-1">
+        <div className="absolute inset-px rounded-xl border border-neutral-700 text-white max-lg:rounded-t-[2rem]"></div>
+        <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
+          <div className="px-8 pt-8 sm:px-10 sm:pt-10">
+            <p className="mt-2 text-lg/7 font-medium tracking-tight max-lg:text-center">Noch kein Idee</p>
+            <p className="mt-2 max-w-lg text-base text-neutral-400 max-lg:text-center">
+              Hier müssen wir noch was finden, was hier den befüllen können.
+            </p>
+          </div>
+          <div className="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2">
+          </div>
+        </div>
+        <div className="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 max-lg:rounded-t-[2rem]"></div>
+      </div>
+      <div className="relative max-lg:row-start-3 lg:col-start-2 lg:row-start-2">
+        <div className="absolute inset-px rounded-xl border border-neutral-700 text-white"></div>
+        <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)]">
+          <div className="px-8 pt-8 sm:px-10 sm:pt-10">
+            <p className="mt-2 text-lg/7 font-medium tracking-tight max-lg:text-center">Security</p>
+            <p className="mt-2 max-w-lg text-base text-neutral-400 max-lg:text-center">Hier sollte noch ein Text bezüglich der Security rein mit einem Bild im Hintergrund. Eine Beschreibung mit 2 Sätzen.</p>
+          </div>
+          <div className="flex flex-1 items-center [container-type:inline-size] max-lg:py-6 lg:pb-2">
+          </div>
+        </div>
+        <div className="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5"></div>
+      </div>
+      <div className="relative lg:row-span-2">
+        <div className="absolute inset-px rounded-xl border border-neutral-700 text-white max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]"></div>
+        <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-r-[calc(2rem+1px)]">
+          <div className="px-8 pb-3 pt-8 sm:px-10 sm:pb-0 sm:pt-10">
+            <p className="mt-2 text-lg/7 font-medium tracking-tight max-lg:text-center">Powerful APIs & Tools</p>
+            <p className="mt-2 max-w-lg text-base text-neutral-400 max-lg:text-center">Beschreibung das wir APIS für developer anbieten damit sie es einbinden können.</p>
+          </div>
+          <div className="relative min-h-[30rem] w-full grow">
+            <div className="absolute bottom-0 left-10 right-0 top-10 overflow-hidden rounded-tl-xl bg-neutral-900 shadow-2xl">
+              <div className="flex bg-neutral-800/40 ring-1 ring-white/5">
+                <div className="-mb-px flex text-sm font-medium leading-6 text-gray-400">
+                  <div className="border-b border-r border-b-white/20 border-r-white/10 bg-white/5 px-4 py-2 text-white">Simple.jsx</div>
+                  <div className="border-r border-gray-600/10 px-4 py-2">App.jsx</div>
+                </div>
+              </div>
+              <div className="px-6 pb-14 pt-6">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  );
+}
 
 
 export default function Home(): JSX.Element {
@@ -211,6 +289,7 @@ export default function Home(): JSX.Element {
       <main>
       <Stats />
       <Products />
+      <Benefits />
       <Partnerships />
       </main>
       </div>
