@@ -22,9 +22,8 @@ Telegram Mini Apps leverage the Telegram Web Apps API, which allows them to be e
 
 ![](https://cdn-images-1.medium.com/max/1600/1*DgZSnt5lZ8XTu5Vt5P_mUw.png)
 
-<div style={{ textAlign: 'center' }}>
   [Official Telegram Documentation](https://core.telegram.org/bots/webapps)
-</div>
+
 
 ## Advantages of Telegram Mini Apps
 The advantages of Telegram Mini Apps go beyond just convenience — they offer a blend of technical sophistication and enhanced user experience:
