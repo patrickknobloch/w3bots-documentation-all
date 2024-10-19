@@ -35,7 +35,9 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          breadcrumbs: true,
         },
+        
         blog: {
           showReadingTime: true,
           feedOptions: {
@@ -75,7 +77,13 @@ const config: Config = {
         
       ],
     },
+    breadcrumbs: {
+      home: {
+        label: 'Start', // Ändere 'Home' zu deinem gewünschten Wort
+      },
+    },
     docs: {
+      
     },
     colorMode: {
       defaultMode: 'dark',
