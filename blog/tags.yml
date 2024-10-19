@@ -1,19 +1,19 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+W3BOTS
+  label: W3BOTS
+  permalink: /WBOTS
+  description: Technology transforms into solutions.
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+development:
+  label: development
+  permalink: /development
+  description: development tag description
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+telegram:
+  label: telegram
+  permalink: /telegram
+  description: telegram tag description
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+decentralization:
+  label: decentralization
+  permalink: /decentralization
+  description: decentralization tag description
