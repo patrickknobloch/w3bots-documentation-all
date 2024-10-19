@@ -1,13 +1,10 @@
 ---
-slug: welcome
-title: Welcome
+slug: Decentralized Applications
+title: Telegram Mini Apps: A Future for Decentralized Applications
 authors: [kostakis]
 tags: [W3BOTS, development, telegram, decentralization]
 ---
 
-# Telegram Mini Apps: A Future for Decentralized Applications
-
-## Introduction
 In the rapidly advancing world of digital applications, new technologies are emerging that prioritize decentralization and user experience. One such cutting-edge technology is **Telegram Mini Apps**. These lightweight apps are transforming the landscape of decentralized applications (dApps/d’Apps) by offering seamless access within Telegram. 
 
 In this article, we delve into how Telegram Mini Apps work, their unique advantages, and how they can be integrated into various use cases.
