@@ -83,8 +83,8 @@ function Products() {
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         
         <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
-          <div className="h-52 flex flex-col justify-center items-center bg-green-300 rounded-t-xl">
-            <img src="img/auditylogo.svg" className='w-32 p-6 bg-neutral-900 rounded-2xl' />
+          <div className="h-52 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-green-300/10  to-green-300/0 rounded-t-xl">
+            <img src="img/auditylogo.svg" className='w-32 p-6 border border-green-300/30 bg-neutral-900 shadow-green-300/30 shadow-2xl rounded-2xl' />
           </div>
           <div className="p-4 md:p-6">
             <span className="block mb-1 text-xs font-semibold uppercase text-green-300">
@@ -108,8 +108,8 @@ function Products() {
         </div>
 
         <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
-          <div className="h-52 flex flex-col justify-center items-center bg-cyan-300 rounded-t-xl">
-            <img src="img/swapylogo.svg" className='w-32 p-6 bg-neutral-900 rounded-2xl' />
+          <div className="h-52 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-cyan-300/10  to-cyan-300/0 rounded-t-xl">
+            <img src="img/swapylogo.svg" className='w-32 p-6 border border-cyan-500/50 bg-neutral-900 shadow-cyan-600/30 shadow-2xl rounded-2xl' />
           </div>
           <div className="p-4 md:p-6">
             <span className="block mb-1 text-xs font-semibold uppercase text-cyan-300">
@@ -133,11 +133,11 @@ function Products() {
         </div>
 
         <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
-          <div className="h-52 flex flex-col justify-center items-center bg-indigo-500 rounded-t-xl">
-            <img src="img/tradylogo.svg" className='w-32 p-6 bg-neutral-900 rounded-2xl' />
+          <div className="h-52 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-indigo-500/10  to-indigo-500/0 rounded-t-xl">
+            <img src="img/tradylogo.svg" className='w-32 p-6 border border-indigo-500/50 bg-neutral-900 rounded-2xl shadow-indigo-600/30 shadow-2xl' />
           </div>
           <div className="p-4 md:p-6">
-            <span className="block mb-1 text-xs font-semibold uppercase text-indigo-300">
+            <span className="block mb-1 text-xs font-semibold uppercase text-indigo-400">
               AI based automatic Swap System
             </span>
             <h3 className="text-xl font-semibold text-white">

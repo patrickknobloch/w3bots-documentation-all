@@ -2,8 +2,8 @@
 	<title>Neues Projekt</title>
 	<defs>
     <radialGradient id="radial-gradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
-      <stop offset="0%" style="stop-color: #6366f1;" />
-      <stop offset="100%" style="stop-color: #4f46e5;" />
+      <stop offset="0%" style="stop-color: #6366f1" />
+      <stop offset="100%" style="stop-color: #6366f1;" />
     </radialGradient>
   </defs>
   <style>
