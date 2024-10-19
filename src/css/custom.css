@@ -46,6 +46,20 @@ h1{
   font-weight: 700;
 }
 
+h2.title_f1Hy {
+  font-weight: 700;
+  color: #fff;
+}
+
+h2 .anchor {
+  font-weight: 700;
+}
+
+h2.title_f1Hy a {
+  font-weight: 700;
+  color: #fff;
+}
+
 /* NAVBAR */
 a.navbar__item.navbar__link.navbar__link--active {
   color: #fff;
@@ -115,8 +129,9 @@ a.card.padding--lg.cardContainer_node_modules-\@docusaurus-theme-classic-lib-the
   color:#fff;
 }
 
-.cardContainer_fWXF:hover {
-  border-color: #333;
+a.card.padding--lg.cardContainer_fWXF:hover {
+  color: #fff;
+  border: 1px solid #333;
 }
 
 .pagination-nav__sublabel {
