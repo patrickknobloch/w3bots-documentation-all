@@ -82,6 +82,13 @@ const config: Config = {
         
       ],
     },
+    prism: {
+      theme: require('prism-react-renderer/themes/dracula'), // Setze das Dark-Theme für Code-Syntax
+    },
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true, // Deaktiviert den Light/Dark-Mode-Button
+    },
     footer: {
       style: 'dark',
       links: [

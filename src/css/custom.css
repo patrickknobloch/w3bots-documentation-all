@@ -26,6 +26,17 @@ body{
  color:#fff;
 }
 
+/* SIDEBAR */
+.menu__link {
+  color: #a3a3a3;
+}
+
+aside.theme-doc-sidebar-container.docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocRoot-Layout-Sidebar-styles-module {
+  border: none;
+}
+
+/* NAVBAR */
+
 .navbar{
   background: #17171700;
   color:#fff;
@@ -36,16 +47,16 @@ body{
   color:white;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+button.clean-btn.toggleButton_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module {
+  display: none;
+}
+
+span {color:#fff;}
+
+.breadcrumbs__item--active .breadcrumbs__link, .menu__link--active, .menu__link--active:hover 
+  {
+  color:#fff;
+  font-weight: 700;
 }
 
 a:hover{
@@ -53,3 +64,8 @@ a:hover{
   color:#444;
 }
 
+/* MAIN */
+a.card.padding--lg.cardContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocCard-styles-module {
+  background: #171717;
+  border: 1px solid #333;
+}
