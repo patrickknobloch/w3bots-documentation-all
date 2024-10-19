@@ -1,6 +1,6 @@
 ---
 slug: Decentralized Applications
-title: Telegram Mini Apps: A Future for Decentralized Applications
+title: "Telegram Mini Apps: A Future for Decentralized Applications"
 authors: [kostakis]
 tags: [W3BOTS, development, telegram, decentralization]
 ---
