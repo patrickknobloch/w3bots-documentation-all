@@ -26,6 +26,14 @@ body{
  color:#fff;
 }
 
+#__docusaurus {
+  background: #171717;
+}
+
+.col {
+  background: #171717;
+}
+
 /* SIDEBAR */
 .menu__link {
   color: #a3a3a3;
