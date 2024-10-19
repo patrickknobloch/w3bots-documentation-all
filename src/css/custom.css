@@ -51,8 +51,9 @@ h2.title_f1Hy {
   color: #fff;
 }
 
-h2 .anchor {
+h2.anchor {
   font-weight: 700;
+  font-size: 1.2rem;
 }
 
 h2.title_f1Hy a {
