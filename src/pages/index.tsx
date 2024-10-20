@@ -75,7 +75,7 @@ function Products() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <div className="relative z-30 max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
         
         <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
           <div className="h-52 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-green-300/10  to-green-300/0 rounded-t-xl">
@@ -101,6 +101,32 @@ function Products() {
             </a>
           </div>
         </div>
+
+        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
+          <div className="h-52 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-yellow-500/10  to-indigo-500/0 rounded-t-xl">
+            <img src="img/acedemylogo.svg" className='w-32 p-6 border border-yellow-500/50 bg-neutral-900 rounded-2xl shadow-yellow-600/30 shadow-2xl' />
+          </div>
+          <div className="p-4 md:p-6">
+            <span className="block mb-1 text-xs font-semibold uppercase text-yellow-400">
+              Learn Web3
+            </span>
+            <h3 className="text-xl font-semibold text-white">
+              Academy
+            </h3>
+            <p className="mt-3 text-neutral-400">
+            Academy is an AI-powered learning platform that helps users master Web3 concepts, from trading and wallets to setups and strategies. Perfect for beginners and pros alike.
+            </p>
+          </div>
+          <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
+            <a className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
+              View sample
+            </a>
+            <a className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
+              View API
+            </a>
+          </div>
+        </div>
+
 
         <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
           <div className="h-52 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-cyan-300/10  to-cyan-300/0 rounded-t-xl">
@@ -152,6 +178,7 @@ function Products() {
           </div>
         </div>
       
+       
       </div>
     </div>
   );
@@ -198,11 +225,11 @@ function Benefits(){
   <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
   <div className="flex justify-center">
       <a className="inline-flex items-center gap-x-2 border border-neutral-600 text-xs text-white bg-neutral-800 p-2 px-3 rounded-full transition hover:border-gray-300 focus:outline-none focus:border-gray-300" href="#">
-        Easy
+        For User, Content Manager and Developers
         
       </a>
     </div>
-    <p className="mx-auto mt-2 text-pretty text-center md:text-7xl font-bold tracking-tight sm:text-5xl">
+    <p className="mx-auto mt-2 text-pretty text-center text-4xl md:text-7xl font-bold tracking-tight sm:text-5xl">
     Seamless Usability
     </p>
     <div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-2 lg:grid-rows-2">

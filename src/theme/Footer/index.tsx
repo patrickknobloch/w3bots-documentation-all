@@ -10,7 +10,7 @@ export default function FooterWrapper(props: Props): JSX.Element {
     <>
       <footer className=" mt-auto w-full max-w-[85rem] py-10 px-8 sm:px-6 lg:px-8 mx-auto text-white">
   <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6 mb-10">
-    <div className="col-span-full hidden lg:col-span-1 lg:block items-center mt-2">
+    <div className="col-span-full lg:col-span-1 lg:block items-center mt-2">
     <svg className='w-full pr-8' viewBox="0 0 4346 1023" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g clip-path="url(#clip0_1446_118)">
       <mask id="mask0_1446_118" maskUnits="userSpaceOnUse" x="156" y="0" width="733" height="1023">
