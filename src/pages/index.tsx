@@ -223,21 +223,19 @@ function Community(){
   return(
     <div className="">
       <div className="mx-auto max-w-7xl py-12 sm:px-6 sm:py-12 lg:px-8">
-        <div className="mx-4 rounded-xl relative isolate overflow-hidden bg-neutral-900 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#2AABEE]/30 via-[#2AABEE]/0  to-[#24A1DE]/0 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
-          
-          <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-            <h2 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
-              Engage with our Community
-            </h2>
-            <p className="mt-6 text-lg leading-8 text-neutral-300">
-            Join discussions on token insights, exchange ideas, and stay updated on the latest trends in blockchain technology and security.
-            </p>
-            <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-              <a href="#" className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Get started</a>
+        <div className="mx-4 rounded-xl relative isolate overflow-hidden p-6 bg-neutral-900 community shadow-2xl sm:rounded-3xl ">
+          <div className='backdrop-blur-md  w-full flex p-8 rounded-xl'>
+            <div className="mx-auto  text-center lg:mx-0 lg:flex-auto lg:py-16 ">
+              <h2 className="text-5xl font-bold tracking-tight text-white sm:text-8xl">
+                Join our Community
+              </h2>
+              <p className="mt-6 text-lg leading-8 text-neutral-300">
+              Join discussions on token insights, exchange ideas, and stay updated on the latest trends in blockchain technology and security.
+              </p>
+              <div className="mt-10 flex items-center justify-center gap-x-6 ">
+                <a href="#" className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Get started</a>
+              </div>
             </div>
-          </div>
-          <div className="relative mt-16 h-96 lg:mt-8">
-            <img className="absolute left-0 top-0 w-full mx-auto md:w-[32rem] max-w-none" src="./img/telegram.png" alt="App screenshot" width="1224" />
           </div>
         </div>
       </div>

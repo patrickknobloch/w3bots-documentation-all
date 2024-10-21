@@ -39,6 +39,13 @@ article ul li{
   background: #171717;
 }
 
+.community {
+    background-image: url('/img/community-bg-1.png');
+    background-size: cover;
+    background-position: center;
+  
+}
+
 .col {
   background: #171717;
 }
