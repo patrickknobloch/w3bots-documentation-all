@@ -84,7 +84,7 @@ export default function FooterWrapper(props: Props): JSX.Element {
       <rect width="4346" height="1023" fill="white"/>
       </clipPath>
       </defs>
-      </svg>
+    </svg>
 
     </div>
 
