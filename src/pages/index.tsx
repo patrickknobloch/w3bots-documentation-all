@@ -91,13 +91,17 @@ function Products() {
             <p className="mt-3 text-neutral-400">
             Audity analyzes liquidity, holders, wash trading, smart contracts, and social metrics, generating a comprehensive score for cryptocurrency tokens.
             </p>
+            <span className='mt-3 block font-medium'>Stage: Alpha Testing</span>
           </div>
           <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
             <a className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-              View sample
+              Website
             </a>
             <a className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-              View API
+              Telegram Bot
+            </a>
+            <a className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
+              Docs
             </a>
           </div>
         </div>
@@ -116,14 +120,14 @@ function Products() {
             <p className="mt-3 text-neutral-400">
             Academy is an AI-powered learning platform that helps users master Web3 concepts, from trading and wallets to setups and strategies. Perfect for beginners and pros alike.
             </p>
+            <span className='mt-3 block font-medium'>Stage: Developement</span>
+
           </div>
           <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
-            <a className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-              View sample
+            <a aria-disabled className="w-full text-neutral-500 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
+              Comming soon
             </a>
-            <a className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-              View API
-            </a>
+            
           </div>
         </div>
 
@@ -142,14 +146,13 @@ function Products() {
             <p className="mt-3 text-neutral-400">
             Swapy combines multiple DEX providers into a single access point to make token swaps seamless and efficient. Invest easily, securely and affordably in just a few steps.
             </p>
+            <span className='mt-3 block font-medium'>Stage: Alpha Testing</span>
           </div>
           <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
-            <a className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none " href="#">
-              View sample
+          <a aria-disabled className="w-full text-neutral-500 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
+              Comming soon
             </a>
-            <a className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-              View API
-            </a>
+            
           </div>
         </div>
 
@@ -167,14 +170,14 @@ function Products() {
             <p className="mt-3 text-neutral-400">
             Trady is an AI-powered automatic investment bot for tokens, managing investments and payouts seamlessly.
             </p>
+            <span className='mt-3 block font-medium'>Stage: Development</span>
+
           </div>
           <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
-            <a className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-              View sample
+          <a aria-disabled className="w-full text-neutral-500 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
+              Comming soon
             </a>
-            <a className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-              View API
-            </a>
+            
           </div>
         </div>
       
@@ -191,25 +194,25 @@ function Stats(){
         
         <div className='text-center'>
           <h4 className="text-lg sm:text-xl font-semibold text-neutral-500">Bots & APIs</h4>
-          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-white">10+</p>
+          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-white">1+</p>
           <p className="mt-1 text-neutral-400">live</p>
         </div>
 
         <div className='text-center'>
           <h4 className="text-lg sm:text-xl font-semibold text-neutral-500">Available for</h4>
-          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-white">10+</p>
+          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-white">1+</p>
           <p className="mt-1 text-neutral-400">Blockchains</p>
         </div>
 
         <div className='text-center'>
           <h4 className="text-lg sm:text-xl font-semibold text-neutral-500">Customers</h4>
-          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-white">200K+</p>
+          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-white">0+</p>
           <p className="mt-1 text-neutral-400">about all our Bots</p>
         </div>
      
         <div className='text-center'>
           <h4 className="text-lg sm:text-xl font-semibold text-neutral-500">Bots & APIs</h4>
-          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-white">10+</p>
+          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-white">1+</p>
           <p className="mt-1 text-neutral-400">live</p>
         </div>
 
