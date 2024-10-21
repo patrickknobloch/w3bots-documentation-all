@@ -235,8 +235,8 @@ function Community(){
           </defs>
           <rect width="100%" height="100%" stroke-width="0" fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)"></rect>
         </svg>
-        <div className='backdrop-blur-sm relative z-30 w-full flex p-8 rounded-xl'>
-            <div className="mx-auto text-center lg:flex-auto lg:py-16 ">
+        <div className='backdrop-blur-sm relative z-30 w-full flex p-4 rounded-xl'>
+            <div className="mx-auto text-center lg:py-16 ">
               <h2 className="text-5xl font-bold tracking-tight text-white sm:text-8xl">
                 Join our Community
               </h2>
