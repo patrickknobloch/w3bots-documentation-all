@@ -7,7 +7,7 @@ import Navbar from '@theme/Navbar';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
-  return (<header className=' text-white bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-neutral-500/20 via-slate-950/0 to-slate-950/0'>
+  return (<header className=' text-white bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-300/10 via-blue-950/0 to-slate-950/0'>
     <svg
       className="absolute inset-0 opacity-10 z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
       aria-hidden="true">
@@ -31,7 +31,7 @@ function HomepageHeader() {
     </div>
 
     <div className="mt-5 max-w-3xl text-center mx-auto">
-      <p className="text-lg text-neutral-500 ">
+      <p className="text-lg text-neutral-400 ">
       We drive web3 adoption by developing innovative tools and bots that simplify complex processes and enhance user experience and engagement.
       </p>
     </div>
@@ -222,9 +222,20 @@ function Stats(){
 function Community(){
   return(
     <div className="">
-      <div className="mx-auto max-w-7xl py-12 sm:px-6 sm:py-12 lg:px-8">
-        <div className="mx-4 rounded-xl relative isolate overflow-hidden p-6 bg-neutral-900 community shadow-2xl sm:rounded-3xl ">
-          <div className='backdrop-blur-md  w-full flex p-8 rounded-xl'>
+      <div className="mx-auto py-12 sm:px-6 sm:py-12">
+        <div className="mx-4 rounded-xl relative isolate overflow-hidden p-8 border border-neutral-800 bg-neutral-900 bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-blue-500/10 via-indigo-300/0  to-indigo-300/0  shadow-2xl sm:rounded-3xl ">
+        <svg
+          className="absolute inset-0 opacity-10 z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+          aria-hidden="true">
+          <defs>
+            <pattern id="0787a7c5-978c-4f66-83c7-11c213f99cb7" width="400" height="400" x="10%" y="-1"
+              patternUnits="userSpaceOnUse">
+              <path d="M.5 200V.5H200" fill="none"></path>
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" stroke-width="0" fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)"></rect>
+        </svg>
+        <div className='backdrop-blur-sm relative z-30 w-full flex p-8 rounded-xl'>
             <div className="mx-auto  text-center lg:mx-0 lg:flex-auto lg:py-16 ">
               <h2 className="text-5xl font-bold tracking-tight text-white sm:text-8xl">
                 Join our Community
@@ -233,7 +244,10 @@ function Community(){
               Join discussions on token insights, exchange ideas, and stay updated on the latest trends in blockchain technology and security.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6 ">
-                <a href="#" className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Get started</a>
+                <a href="https://t.me/w3bots_community" className=" text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
+                <img src="img/telegramlogo.svg" className='w-40 md:w-64 p-6' />
+
+                  </a>
               </div>
             </div>
           </div>
