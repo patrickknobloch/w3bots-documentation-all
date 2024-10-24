@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# About W3BOTS
+# Who, What & Why
 
 ## Who We Are
 
