@@ -91,7 +91,7 @@ function Products() {
             <p className="mt-3 text-neutral-400">
             Audity analyzes liquidity, holders, wash trading, smart contracts, and social metrics, generating a comprehensive score for cryptocurrency tokens.
             </p>
-            <span className='mt-3 block font-medium'>Stage: Alpha Testing</span>
+            <span className='mt-3 block font-medium'>Stage: Testing</span>
           </div>
           <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
             <a className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
@@ -120,12 +120,12 @@ function Products() {
             <p className="mt-3 text-neutral-400">
             Academy is an AI-powered learning platform that helps users master Web3 concepts, from trading and wallets to setups and strategies. Perfect for beginners and pros alike.
             </p>
-            <span className='mt-3 block font-medium'>Stage: Developement</span>
+            <span className='mt-3 block font-medium'>Stage: Development</span>
 
           </div>
           <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
             <a aria-disabled className="w-full text-neutral-500 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-              Comming soon
+              Coming soon
             </a>
             
           </div>
@@ -146,11 +146,11 @@ function Products() {
             <p className="mt-3 text-neutral-400">
             Swapy combines multiple DEX providers into a single access point to make token swaps seamless and efficient. Invest easily, securely and affordably in just a few steps.
             </p>
-            <span className='mt-3 block font-medium'>Stage: Alpha Testing</span>
+            <span className='mt-3 block font-medium'>Stage: Testing</span>
           </div>
           <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
           <a aria-disabled className="w-full text-neutral-500 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-              Comming soon
+              Coming soon
             </a>
             
           </div>
@@ -175,7 +175,7 @@ function Products() {
           </div>
           <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
           <a aria-disabled className="w-full text-neutral-500 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-              Comming soon
+              Coming soon
             </a>
             
           </div>
