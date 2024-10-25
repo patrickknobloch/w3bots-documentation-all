@@ -155,7 +155,7 @@ function Products() {
           </div>
           <div className="p-4 md:p-6">
             <span className="block mb-1 text-xs font-semibold uppercase text-indigo-400">
-              AI based automatic Swap System
+              AI automatic Trade Risk Management System
             </span>
             <h3 className="text-xl font-semibold text-white">
               Trady
