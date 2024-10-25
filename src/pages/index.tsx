@@ -100,9 +100,6 @@ function Products() {
             <a className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
               Telegram Bot
             </a>
-            <a className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-              Docs
-            </a>
           </div>
         </div>
 
@@ -162,13 +159,13 @@ function Products() {
           </div>
           <div className="p-4 md:p-6">
             <span className="block mb-1 text-xs font-semibold uppercase text-indigo-400">
-              AI based automatic Swap System
+            AI powered automatic risk management
             </span>
             <h3 className="text-xl font-semibold text-white">
               Trady
             </h3>
             <p className="mt-3 text-neutral-400">
-            Trady is an AI-powered automatic investment bot for tokens, managing investments and payouts seamlessly.
+            Trady is an AI-powered automatic investment bot for tokens, managing investments and payouts seamlessly with some strategies.
             </p>
             <span className='mt-3 block font-medium'>Stage: Development</span>
 
@@ -335,6 +332,7 @@ export default function Home(): JSX.Element {
       <main>
       <Stats />
       <Products />
+      <Benefits />
       <Community />
       </main>
       </div>
