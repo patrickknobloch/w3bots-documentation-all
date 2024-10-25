@@ -72,7 +72,6 @@ function Partnerships(){
 }
 
 function Products() {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <div className="relative z-30 max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -116,7 +115,7 @@ function Products() {
             </h3>
             <p className="mt-3 text-neutral-400">
             Academy is an AI-powered learning platform that helps users master Web3 concepts, from trading and wallets to setups and strategies. Perfect for beginners and pros alike.
-
+</p>
           </div>
           <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
             <a aria-disabled className="w-full text-neutral-500 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
@@ -140,6 +139,7 @@ function Products() {
             </h3>
             <p className="mt-3 text-neutral-400">
             Swapy combines multiple DEX providers into a single access point to make token swaps seamless and efficient. Invest easily, securely and affordably in just a few steps.
+          </p>
           </div>
           <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
           <a aria-disabled className="w-full text-neutral-500 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
