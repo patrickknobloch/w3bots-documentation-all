@@ -1,8 +1,8 @@
 {
-  "label": "Get started",
-  "position": 2,
+  "label": "Audity",
+  "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "Learn all about Audity, the universal in-depth contract checker by W3BOTS."
   }
 }
