@@ -2,7 +2,7 @@
 slug: Building Audity
 title: Your Comprehensive TON Checker with Multichain Support
 author: [kostakis]
-tags: [W3BOTS, TON, telegram, security, audity, development]
+tags: [W3BOTS, TON, Telegram, Security, Audity, Development]
 ---
 
 **W3BOTS — Simplify complexity**  

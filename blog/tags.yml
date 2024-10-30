@@ -3,17 +3,39 @@ W3BOTS:
   permalink: "/WBOTS"
   description: "Technology transforms into solutions."
 
-development:
-  label: "development"
-  permalink: "/development"
+Development:
+  label: "Development"
+  permalink: "/Development"
   description: "Development tag description."
 
-telegram:
-  label: "telegram"
-  permalink: "/telegram"
+Telegram:
+  label: "Telegram"
+  permalink: "/Telegram"
   description: "Telegram tag description."
 
-decentralization:
-  label: "decentralization"
-  permalink: "/decentralization"
+Decentralization:
+  label: "Decentralization"
+  permalink: "/Decentralization"
   description: "Decentralization tag description."
+
+TON:
+  label: "TON"
+  permalink: "/TON"
+  description: "The Open Network tag description."
+
+Pooly:
+  label: "Pooly"
+  permalink: "/Pooly"
+  description: "Pooly tag description."
+
+Security: 
+  label: "Security"
+  permalink:"/security"
+  description: "Security tag description"
+
+Audity:
+  label: "Audity"
+  permalink:"/Audity"
+  description: "Audity tag description"
+
+  
