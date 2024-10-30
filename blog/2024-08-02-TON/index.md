@@ -2,7 +2,7 @@
 slug: The TON Blockchain
 title: The Power of the TON Blockchain and Telegram Mini Apps
 author: [kostakis]
-tags: [W3BOTS, TON, telegram, decentralization]
+tags: [W3BOTS, TON, telegram, decentralization, pooly]
 ---
 
 In the rapidly evolving world of blockchain and decentralized applications, TON (The Open Network) and Telegram Mini Apps present two powerful tools that can transform digital service interactions. Here’s an introduction to TON, its capabilities, and how W3BOTS leverages these technologies to innovate.
