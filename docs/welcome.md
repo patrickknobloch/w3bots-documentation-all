@@ -2,6 +2,8 @@
 sidebar_position: 1
 ---
 
+![](https://wwww.w3bots.de/static/img/who-why-what.png)
+
 # Welcome 
 
 Welcome to the W3BOTS Docs! Here, you'll find everything you need to get started with our range of innovative Telegram-based blockchain bots. Our bots are designed to simplify crypto management, community engagement, and DeFi investments — all within the Telegram app.
