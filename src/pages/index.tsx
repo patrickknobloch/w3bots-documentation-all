@@ -248,11 +248,16 @@ function Community(){
               <p className="mt-6 text-lg leading-8 text-neutral-300">
               Join discussions on token insights, exchange ideas, and stay updated on the latest trends in blockchain technology and security.
               </p>
-              <div className="mt-10 flex items-center justify-center gap-x-6 ">
-                <a href="https://t.me/w3bots_community" className=" text-sm font-semibold text-gray-900 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
-                <img src="img/telegramlogo.svg" className='w-40 md:w-64 p-6' />
-
-                  </a>
+              <div className="mt-10 flex items-center justify-center gap-x-6">
+                <a
+                  href="https://t.me/w3bots_community"
+                  className="text-sm font-semibold text-gray-900 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                >
+                  <img
+                    src="img/telegramlogo.svg"
+                    className="w-40 md:w-64 p-6 rounded-full transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-blue-500"
+                  />
+                </a>
               </div>
             </div>
           </div>
