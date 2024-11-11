@@ -156,7 +156,7 @@ function Products() {
           </div>
           <div className="p-4 md:p-6">
             <span className="block mb-1 text-xs font-semibold uppercase text-indigo-400">
-              AI automatic Trade Risk Management System
+            Automatic AI Trade & Risk Management
             </span>
             <h3 className="text-xl font-semibold text-white">
               Trady
@@ -167,9 +167,9 @@ function Products() {
             <span className='mt-3 block font-medium'>Stage: Development</span>
 
           </div>
-          <div className="mt-auto flex border-t border-neutralq q-700 divide-x divide-neutral-700 dark:divide-neutral-700">
+          <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
           <a aria-disabled className="w-full text-neutral-500 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-            Stage: Development
+            Stage: Testing
             </a>
             
           </div>
@@ -241,7 +241,7 @@ function Community(){
               Join discussions on token insights, exchange ideas, and stay updated on the latest trends in blockchain technology and security.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6 ">
-                <a href="https://t.me/w3bots_community" className=" text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
+                <a href="https://t.me/w3bots_community" className=" text-sm font-semibold text-gray-900 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
                 <img src="img/telegramlogo.svg" className='w-40 md:w-64 p-6' />
 
                   </a>
