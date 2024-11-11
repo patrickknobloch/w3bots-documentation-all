@@ -235,7 +235,7 @@ function Community(){
         <div className='backdrop-blur-sm relative z-30 w-full flex p-4 rounded-xl'>
             <div className="mx-auto text-center lg:py-16 ">
               <h2 className="text-5xl font-bold tracking-tight text-white sm:text-8xl">
-                Join our Community bro!!
+                Join our Community!
               </h2>
               <p className="mt-6 text-lg leading-8 text-neutral-300">
               Join discussions on token insights, exchange ideas, and stay updated on the latest trends in blockchain technology and security.
