@@ -28,14 +28,12 @@ Pooly:
   permalink: "/Pooly"
   description: "Pooly tag description."
 
-Security: 
+Security:
   label: "Security"
-  permalink:"/security"
+  permalink: "/security"
   description: "Security tag description"
 
 Audity:
   label: "Audity"
-  permalink:"/Audity"
+  permalink: "/Audity"
   description: "Audity tag description"
-
-  
