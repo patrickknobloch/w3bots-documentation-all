@@ -94,10 +94,18 @@ function Products() {
             <span className='mt-3 block font-medium'>Stage: Testing</span>
           </div>
           <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
-            <a className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50/20 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" target='_blank' href="https://audity.w3bots.de">
+            <a
+              className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-neutral-700/20 hover:text-white focus:outline-none focus:bg-neutral-700/20 focus:text-white disabled:opacity-50 disabled:pointer-events-none"
+              target="_blank"
+              href="https://audity.w3bots.de"
+            >
               Website
             </a>
-            <a className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl shadow-sm hover:bg-gray-50/20  focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" target='_blank' href="https://t.me/audity_w3bot">
+            <a
+              className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl shadow-sm hover:bg-neutral-700/20 hover:text-white focus:outline-none focus:bg-neutral-700/20 focus:text-white disabled:opacity-50 disabled:pointer-events-none"
+              target="_blank"
+              href="https://t.me/audity_w3bot"
+            >
               Bot
             </a>
           </div>
