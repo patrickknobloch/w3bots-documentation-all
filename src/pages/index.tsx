@@ -329,7 +329,6 @@ export default function Home(): JSX.Element {
       <main>
       <Stats />
       <Products />
-      <Benefits />
       <Community />
       </main>
       </div>
