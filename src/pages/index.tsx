@@ -4,6 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
 import Navbar from '@theme/Navbar';
+import React from 'react';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -38,13 +39,13 @@ function HomepageHeader() {
     </div>
 
     <div className="mt-8 gap-3 flex justify-center">
-    <a href="#_" className="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white border-2 border-neutral-700 rounded-full hover:text-neutral-900 hover:no-underline group ">
-<span className="absolute left-0 block w-full h-0 transition-all bg-white/20 opacity-100 group-hover:h-full top-1/2  group-hover:top-0 duration-400 ease"></span>
-<span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease group:hover:text-neutral-100">
-<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-</span>
-<span className="relative ">Discover our Products</span>
-</a>
+      <a href="#products" className="hover:shadow-xl hover:shadow-white/5 relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white border border-neutral-700 rounded-full hover:text-neutral-900 hover:no-underline group ">
+        <span className="absolute left-0 block w-full h-0 transition-all bg-white/10 opacity-100 group-hover:h-full top-1/2  group-hover:top-0 duration-400 ease"></span>
+        <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease group:hover:text-neutral-100">
+        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+        </span>
+        <span className="relative ">Discover our Products</span>
+      </a>
     </div>
   </div>
 </div>
@@ -74,8 +75,8 @@ function Partnerships(){
 
 function Products() {
   return (
-    <div className="relative z-30 max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div id='products' className="relative z-30 max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         
         <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
           <div className="h-52 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-green-300/10  to-green-300/0 rounded-t-xl">
@@ -91,7 +92,6 @@ function Products() {
             <p className="mt-3 text-neutral-400">
             Audity analyzes liquidity, holders, wash trading, smart contracts, and social metrics, generating a comprehensive score for cryptocurrency tokens.
             </p>
-            <span className='mt-3 block font-medium'>Stage: Testing</span>
           </div>
           <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
             <a
@@ -164,7 +164,7 @@ function Products() {
           </div>
           <div className="p-4 md:p-6">
             <span className="block mb-1 text-xs font-semibold uppercase text-indigo-400">
-            Automatic AI Trade & Risk Management
+            Trade- & Risk-Management
             </span>
             <h3 className="text-xl font-semibold text-white">
               Trady
@@ -172,7 +172,52 @@ function Products() {
             <p className="mt-3 text-neutral-400">
             Trady is an AI-powered automatic investment bot for tokens, managing investments and payouts seamlessly.
             </p>
-            <span className='mt-3 block font-medium'>Stage: Development</span>
+
+          </div>
+          <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
+          <a aria-disabled className="w-full text-neutral-500 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
+            Stage: Testing
+            </a>
+            
+          </div>
+        </div>
+
+        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
+          <div className="h-52 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-blue-500/10  to-blue-500/0 rounded-t-xl">
+            <img src="img/poolylogo.svg" className='w-32 p-6 border border-blue-500/50 bg-neutral-900 rounded-2xl shadow-blue-600/30 shadow-2xl' />
+          </div>
+          <div className="p-4 md:p-6">
+            <span className="block mb-1 text-xs font-semibold uppercase text-blue-400">
+            Liquidity Pools investment
+            </span>
+            <h3 className="text-xl font-semibold text-white">
+            Pooly
+            </h3>
+            <p className="mt-3 text-neutral-400">
+            Pooly simplifies investing in cryptocurrency liquidity pools with a single asset purchase, making it easy for users to participate in DeFi and earn rewards without the complexity of pairings.            </p>
+
+          </div>
+          <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
+          <a aria-disabled className="w-full text-neutral-500 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
+            Stage: Testing
+            </a>
+            
+          </div>
+        </div>
+
+        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
+          <div className="h-52 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-red-500/10  to-red-500/0 rounded-t-xl">
+            <img src="img/lootylogo.svg" className='w-32 p-6 border border-yellow-500/50 bg-neutral-900 rounded-2xl shadow-yellow-600/30 shadow-2xl' />
+          </div>
+          <div className="p-4 md:p-6">
+            <span className="block mb-1 text-xs font-semibold uppercase text-red-400">
+            Interactive Reward System
+            </span>
+            <h3 className="text-xl font-semibold text-white">
+              Looty
+            </h3>
+            <p className="mt-3 text-neutral-400">
+            Looty offers a flexible way to strengthen interaction in communities and create new revenue opportunities for project owners.            </p>
 
           </div>
           <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
@@ -246,7 +291,7 @@ function Community(){
                 Join our Community!
               </h2>
               <p className="mt-6 text-lg leading-8 text-neutral-300">
-              Join discussions on token insights, exchange ideas, and stay updated on the latest trends in blockchain technology and security.
+              Join discussions on token insights, exchange ideas, and stay updated on our latest updates.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
@@ -332,6 +377,12 @@ function Benefits(){
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
+  
+  React.useEffect(() => {
+    document.title = `W3BOTS - Innovating with Passion for Web3`;
+
+  }, []);
+  
   return (
     <Layout>
 

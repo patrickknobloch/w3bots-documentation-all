@@ -1,4 +1,8 @@
 ---
+id: welcome
+title: 'Welcome'
+description: 'Welcome to the W3BOTS Docs!'
+slug: /
 sidebar_position: 1
 ---
 

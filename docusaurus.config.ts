@@ -3,27 +3,20 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'W3BOTS',
+  tagline: 'We drive web3 adoption by developing innovative tools and bots that simplify complex processes and enhance user experience and engagement.',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  url: 'https://www.w3bots.de/',
+
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'facebook', 
+  projectName: 'W3BOTS', 
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -134,6 +127,11 @@ const config: Config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
+    metadata: [
+      {name: 'description', content: 'We drive web3 adoption by developing innovative tools and bots that simplify complex processes and enhance user experience and engagement.'},
+      {name: 'keywords', content: 'ton, blockchain development, community engagement,telegram bot,trading bot,yield farming,telegram mini apps,sniperbot,web3 bots,w3bots, web3,tg bot,tools,services,multichain,swap, swapy,pooly,trady, audity,looty '},
+      {name: 'robots', content: 'index, follow'}
+    ],
   } satisfies Preset.ThemeConfig,
 };
 
