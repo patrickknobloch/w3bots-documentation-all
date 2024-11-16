@@ -176,7 +176,7 @@ function Products() {
           </div>
           <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
           <a aria-disabled className="w-full text-neutral-500 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-            Stage: Testing
+            Stage: Development
             </a>
             
           </div>
@@ -199,7 +199,7 @@ function Products() {
           </div>
           <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
           <a aria-disabled className="w-full text-neutral-500 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-            Stage: Testing
+            Stage: Development
             </a>
             
           </div>
@@ -222,7 +222,7 @@ function Products() {
           </div>
           <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
           <a aria-disabled className="w-full text-neutral-500 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-            Stage: Testing
+            Stage: Development
             </a>
             
           </div>

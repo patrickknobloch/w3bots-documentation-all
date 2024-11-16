@@ -92,10 +92,7 @@ export default function FooterWrapper(props: Props): JSX.Element {
       <h4 className="text-xl font-bold text-neutral-200">Product</h4>
 
       <div className="mt-3 grid space-y-3 text-sm">
-        <p><a className="inline-flex gap-x-2 text-neutral-400 hover:text-neutral-600 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200" href="#">Pricing</a></p>
-        <p><a className="inline-flex gap-x-2 text-neutral-400 hover:text-neutral-600 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200" href="#">Changelog</a></p>
-        <p><a className="inline-flex gap-x-2 text-neutral-400 hover:text-neutral-600 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200" href="#">Docs</a></p>
-        <p><a className="inline-flex gap-x-2 text-neutral-400 hover:text-neutral-600 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200" href="#">Download</a></p>
+        <p><a className="inline-flex gap-x-2 text-neutral-400 hover:text-neutral-600 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200" href="/docs">Docs</a></p>
       </div>
     </div>
 
@@ -104,11 +101,8 @@ export default function FooterWrapper(props: Props): JSX.Element {
       <h4 className="text-xl font-bold text-neutral-200">Resources</h4>
 
       <div className="mt-3 grid space-y-3 text-sm">
-        <p><a className="inline-flex gap-x-2 text-neutral-400 hover:text-neutral-600 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200" href="#">Community</a></p>
-        <p><a className="inline-flex gap-x-2 text-neutral-400 hover:text-neutral-600 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200" href="#">Help & Support</a></p>
-        <p><a className="inline-flex gap-x-2 text-neutral-400 hover:text-neutral-600 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200" href="#">eBook</a></p>
-        <p><a className="inline-flex gap-x-2 text-neutral-400 hover:text-neutral-600 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200" href="#">What's New</a></p>
-        <p><a className="inline-flex gap-x-2 text-neutral-400 hover:text-neutral-600 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200" href="#">Status</a></p>
+        <p><a className="inline-flex gap-x-2 text-neutral-400 hover:text-neutral-600 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200" href="t.me/w3bots_community">Community</a></p>
+        <p><a className="inline-flex gap-x-2 text-neutral-400 hover:text-neutral-600 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200" href="/blog">Blog</a></p>
       </div>
     </div>
 
@@ -116,9 +110,7 @@ export default function FooterWrapper(props: Props): JSX.Element {
       <h4 className="text-xl font-bold text-neutral-200">Developers</h4>
 
       <div className="mt-3 grid space-y-3 text-sm">
-        <p><a className="inline-flex gap-x-2 text-neutral-400 hover:text-neutral-600 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200" href="#">Api</a></p>
-        <p><a className="inline-flex gap-x-2 text-neutral-400 hover:text-neutral-600 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200" href="#">Status</a></p>
-        <p><a className="inline-flex gap-x-2 text-neutral-400 hover:text-neutral-600 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200" href="#">GitHub</a> <span className="inline text-green-300">— New</span></p>
+        <p><a className="inline-flex gap-x-2 text-neutral-400 hover:text-neutral-600 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200" href="#">API (soon)</a></p>
       </div>
 
     </div>
