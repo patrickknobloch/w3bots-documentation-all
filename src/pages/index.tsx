@@ -117,7 +117,7 @@ function Products() {
           </div>
           <div className="p-4 md:p-6">
             <span className="block mb-1 text-xs font-semibold uppercase text-yellow-400">
-              Learn Web3
+            Learning Platform
             </span>
             <h3 className="text-xl font-semibold text-white">
               Academy
