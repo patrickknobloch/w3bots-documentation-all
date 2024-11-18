@@ -34,8 +34,7 @@ function HomepageHeader() {
 
     <div className="mt-5 max-w-3xl text-center mx-auto">
       <p className="text-lg text-neutral-400 ">
-      We drive web3 adoption by developing innovative tools and bots that simplify complex processes and enhance user experience and engagement.
-      </p>
+      We accelerate Web3 adoption with innovative tools and bots that simplify complexity, enhance user experience, and drive community engagement.      </p>
     </div>
 
     <div className="mt-8 gap-3 flex justify-center">
@@ -240,27 +239,27 @@ function Stats(){
       <div className="grid gap-6 grid-cols-2 sm:gap-12 lg:grid-cols-4 lg:gap-8">
         
         <div className='text-center'>
-          <h4 className="text-lg sm:text-xl font-semibold text-neutral-500">Bots & APIs</h4>
-          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-white">1+</p>
-          <p className="mt-1 text-neutral-400">live</p>
+          <h4 className="text-lg sm:text-xl font-semibold text-neutral-500">Bots & dApps</h4>
+          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-white">+1</p>
+          <p className="mt-1 text-neutral-400">Live</p>
         </div>
 
         <div className='text-center'>
           <h4 className="text-lg sm:text-xl font-semibold text-neutral-500">Available for</h4>
-          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-white">1+</p>
-          <p className="mt-1 text-neutral-400">Blockchain</p>
+          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-white">+1</p>
+          <p className="mt-1 text-neutral-400">Blockchains</p>
         </div>
 
         <div className='text-center'>
-          <h4 className="text-lg sm:text-xl font-semibold text-neutral-500">Customers</h4>
-          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-white">0+</p>
-          <p className="mt-1 text-neutral-400">about all our Bots</p>
+          <h4 className="text-lg sm:text-xl font-semibold text-neutral-500">Total Users</h4>
+          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-white">+3</p>
+          <p className="mt-1 text-neutral-400">Across All Our Bots</p>
         </div>
      
         <div className='text-center'>
-          <h4 className="text-lg sm:text-xl font-semibold text-neutral-500">Bots & APIs</h4>
-          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-white">1+</p>
-          <p className="mt-1 text-neutral-400">live</p>
+          <h4 className="text-lg sm:text-xl font-semibold text-neutral-500">APIs</h4>
+          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-white">0</p>
+          <p className="mt-1 text-neutral-400">Live</p>
         </div>
 
 
