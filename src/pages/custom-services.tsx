@@ -345,69 +345,6 @@ function Community(){
   );
 }
 
-function Benefits(){
-  return(
-    <div className="py-12 sm:py-16 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-neutral-500/20 via-slate-950/0 to-slate-950/0">
-  <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
-  <div className="flex justify-center">
-      <a className="inline-flex items-center gap-x-2 border border-neutral-600 text-xs text-white bg-neutral-800 p-2 px-3 rounded-full transition hover:border-gray-300 focus:outline-none focus:border-gray-300" href="#">
-        For User, Content Manager and Developers
-        
-      </a>
-    </div>
-    <p className="mx-auto mt-4 text-pretty text-center text-5xl md:text-7xl font-bold tracking-tight sm:text-5xl">
-    Seamless Usability
-    </p>
-    <div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-2 lg:grid-rows-2">
-      <div className="relative lg:row-span-2">
-        <div className="absolute inset-px rounded-xl border border-neutral-700 text-white bg-neutral-900/50"></div>
-        <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
-          <div className="px-8 pb-3 pt-8 sm:px-10 sm:pb-0 sm:pt-10">
-            <p className="mt-2 text-lg/7 font-medium tracking-tight max-lg:text-center">User friendly</p>
-            <p className="mt-2 max-w-lg text-base text-neutral-400 max-lg:text-center">
-            We focus on simplicity and clarity, making our bots and web applications easy to use. Our tools are designed for an intuitive experience, ensuring smooth navigation and quick access to essential features.            </p>
-          </div>
-          <div className="relative -top-1 min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm">
-            <div className="absolute inset-x-10 bottom-0 top-10 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-neutral-700 bg-neutral-900 shadow-2xl">
-            </div>
-          </div>
-        </div>
-        <div className="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 lg:rounded-l-[2rem]"></div>
-      </div>
-      <div className="relative max-lg:row-start-1">
-        <div className="absolute inset-px rounded-xl border border-neutral-700 text-white bg-neutral-900/50"></div>
-        <div className="relative flex h-full flex-col overflow-hidden">
-          <div className="px-8 pt-8 sm:px-10 sm:pt-10">
-            <p className="mt-2 text-lg/7 font-medium tracking-tight max-lg:text-center">Powerful APIs & Tools</p>
-            <p className="mt-2 max-w-lg text-base text-neutral-400 max-lg:text-center">
-            We offer developers a range of robust APIs and tools for easy integration into their own projects, streamlining the process and enhancing functionality.
-            </p>
-          </div>
-          <div className="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2">
-          </div>
-        </div>
-        <div className="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 max-lg:rounded-t-[2rem]"></div>
-      </div>
-      <div className="relative max-lg:row-start-3 lg:col-start-2 lg:row-start-2">
-        <div className="absolute inset-px rounded-xl border border-neutral-700 text-white bg-neutral-900/50"></div>
-        <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)]">
-          <div className="px-8 pt-8 sm:px-10 sm:pt-10">
-            <p className="mt-2 text-lg/7 font-medium tracking-tight max-lg:text-center">Security</p>
-            <p className="mt-2 max-w-lg text-base text-neutral-400 max-lg:text-center">We offer tools that prioritize user data ownership, minimizing storage and ensuring encryption as a standard for all our solutions.</p>
-          </div>
-          <div className="flex flex-1 items-center [container-type:inline-size] max-lg:py-6 lg:pb-2">
-          </div>
-        </div>
-        <div className="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5"></div>
-      </div>
-     
-    </div>
-  </div>
-</div>
-  );
-}
-
-
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   
@@ -426,7 +363,6 @@ export default function Home(): JSX.Element {
       <main>
       <Stats />
       <Products />
-      <JoinWaitlist />
       <Community />
       </main>
       </div>
