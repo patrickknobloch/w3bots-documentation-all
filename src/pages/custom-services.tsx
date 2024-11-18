@@ -1,15 +1,436 @@
-import React from 'react';
+import clsx from 'clsx';
+import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
-function NeueUnterseite() {
-  return (
-    <Layout title="Neue Unterseite">
-      <div style={{ padding: '2rem' }}>
-        <h1>Willkommen auf meiner neuen Unterseite!</h1>
-        <p>Hier ist der Inhalt meiner neuen Unterseite!</p>
-      </div>
-    </Layout>
+import Navbar from '@theme/Navbar';
+import React from 'react';
+
+function HomepageHeader() {
+  const {siteConfig} = useDocusaurusContext();
+  return (<header className=' text-white bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-300/10 via-blue-950/0 to-slate-950/0'>
+   
+    <svg
+      className="absolute inset-0 opacity-10 z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+      aria-hidden="true">
+      <defs>
+        <pattern id="0787a7c5-978c-4f66-83c7-11c213f99cb7" width="200" height="200" x="50%" y="-1"
+          patternUnits="userSpaceOnUse">
+          <path d="M.5 200V.5H200" fill="none"></path>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" stroke-width="0" fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)"></rect>
+    </svg>
+  
+      <div className=" relative overflow-hidden z-20">
+  <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10">
+  
+   
+    <div className="mt-5 max-w-4xl text-center mx-auto">
+      <h1 className="block font-bold text-4xl md:text-7xl lg:text-8xl">
+      Innovating with Passion for Web3
+      </h1>
+    </div>
+
+    <div className="mt-5 max-w-3xl text-center mx-auto">
+      <p className="text-lg text-neutral-400 ">
+      We accelerate Web3 adoption with innovative tools and bots that simplify complexity, enhance user experience, and drive community engagement.      </p>
+    </div>
+
+    <div className="mt-8 gap-3 flex justify-center">
+      <a href="#products" className="hover:shadow-xl hover:shadow-white/5 relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white border border-neutral-700 rounded-full hover:text-neutral-900 hover:no-underline group ">
+        <span className="absolute left-0 block w-full h-0 transition-all bg-white/10 opacity-100 group-hover:h-full top-1/2  group-hover:top-0 duration-400 ease"></span>
+        <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease group:hover:text-neutral-100">
+        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+        </span>
+        <span className="relative ">Discover our Products</span>
+      </a>
+    </div>
+  </div>
+</div>
+</header>
   );
 }
 
-export default NeueUnterseite;
+function Partnerships(){
+  return (
+<div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+  <div className="w-2/3 sm:w-1/2 lg:w-1/3 mx-auto text-center mb-6">
+    <h2 className="text-neutral-400">Trusted by Open Source, enterprise, and more than 100+ Partners of you</h2>
+  </div>
+
+  <div className="flex justify-center gap-x-6 sm:gap-x-12 lg:gap-x-24">
+    <svg className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto sm:mx-0 text-neutral-500" enable-background="new 0 0 2499 614" viewBox="0 0 2499 614" xmlns="http://www.w3.org/2000/svg"><path d="m431.7 0h-235.5v317.8h317.8v-235.5c0-45.6-36.7-82.3-82.3-82.3zm-308.9 0h-40.5c-45.6 0-82.3 36.7-82.3 82.3v40.5h122.8zm-122.8 196.2h122.8v122.8h-122.8zm392.5 317.8h40.5c45.6 0 82.3-36.7 82.3-82.3v-39.2h-122.8zm-196.3-121.5h122.8v122.8h-122.8zm-196.2 0v40.5c0 45.6 36.7 82.3 82.3 82.3h40.5v-122.8zm828-359.6h-48.1v449.4h254.5v-43h-206.4zm360.8 119c-93.7 0-159.5 69.6-159.5 169.6v11.5c1.3 43 20.3 83.6 51.9 113.9 30.4 27.9 69.6 44.3 111.4 44.3h6.3c44.3 0 86.1-16.5 119-44.3l1.3-1.3-21.5-35.4-2.5 1.3c-26.6 24.1-59.5 38-94.9 38-58.2 0-117.7-38-121.5-122.8h243.1v-2.5s1.3-15.2 1.3-22.8c-.3-91.2-53.4-149.5-134.4-149.5zm-108.9 134.2c10.1-57 51.9-93.7 106.3-93.7 40.5 0 84.8 24.1 88.6 93.7zm521.6-96.2v16.5c-20.3-34.2-58.2-55.7-97.5-55.7h-3.8c-86.1 0-145.6 68.4-145.6 168.4 0 101.3 57 169.6 141.8 169.6 67.1 0 97.5-40.5 107.6-58.2v49.4h45.6v-447h-46.8v157zm-98.8 257c-59.5 0-98.7-50.6-98.7-126.6 0-73.4 41.8-125.3 100-125.3 49.4 0 98.7 39.2 98.7 125.3 0 93.7-51.9 126.6-100 126.6zm424.1-250.7v2.5c-8.9-15.2-36.7-48.1-103.8-48.1-84.8 0-140.5 64.6-140.5 163.3s58.2 165.8 144.3 165.8c46.8 0 78.5-16.5 100-50.6v44.3c0 62-39.2 97.5-108.9 97.5-29.1 0-59.5-7.6-86.1-21.5l-2.5-1.3-17.7 39.2 2.5 1.3c32.9 16.5 69.6 25.3 105.1 25.3 74.7 0 154.4-38 154.4-143.1v-311.3h-46.8zm-93.7 241.8c-62 0-102.5-48.1-102.5-122.8 0-76 35.4-119 96.2-119 67.1 0 98.7 39.2 98.7 119 1.3 78.5-31.6 122.8-92.4 122.8zm331.7-286.1c-93.7 0-158.2 69.6-158.2 168.4v11.4c1.3 43 20.3 83.6 51.9 113.9 30.4 27.9 69.6 44.3 111.4 44.3h6.3c44.3 0 86.1-16.5 119-44.3l1.3-1.3-22.8-35.4-2.5 1.3c-26.6 24.1-59.5 38-94.9 38-58.2 0-117.7-38-121.5-122.8h244.2v-2.5s1.3-15.2 1.3-22.8c0-89.9-53.2-148.2-135.5-148.2zm-107.6 134.2c10.1-57 51.9-93.7 106.3-93.7 40.5 0 84.8 24.1 88.6 93.7zm440.6-127.9c-6.3-1.3-11.4-1.3-17.7-2.5-44.3 0-81 27.9-100 74.7v-72.2h-46.8l1.3 320.3v2.5h48.1v-135.4c0-20.3 2.5-41.8 8.9-60.8 15.2-49.4 49.4-81 89.9-81 5.1 0 10.1 0 15.2 1.3h2.5v-46.8z" fill="currentColor"/></svg>
+
+    <svg className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto sm:mx-0 text-neutral-500" xmlns="http://www.w3.org/2000/svg" viewBox="-4.126838974812941 0.900767442746961 939.436838974813 230.18142889845947" width="2500" height="607"><path d="M667.21 90.58c-13.76 0-23.58 4.7-28.4 13.6l-2.59 4.82V92.9h-22.39v97.86h23.55v-58.22c0-13.91 7.56-21.89 20.73-21.89 12.56 0 19.76 7.77 19.76 21.31v58.8h23.56v-63c0-23.3-12.79-37.18-34.22-37.18zm-114.21 0c-27.79 0-45 17.34-45 45.25v13.74c0 26.84 17.41 43.51 45.44 43.51 18.75 0 31.89-6.87 40.16-21l-14.6-8.4c-6.11 8.15-15.87 13.2-25.55 13.2-14.19 0-22.66-8.76-22.66-23.44v-3.89h65.73v-16.23c0-26-17.07-42.74-43.5-42.74zm22.09 43.15h-44.38v-2.35c0-16.11 7.91-25 22.27-25 13.83 0 22.09 8.76 22.09 23.44zm360.22-56.94V58.07h-81.46v18.72h28.56V172h-28.56v18.72h81.46V172h-28.57V76.79zM317.65 55.37c-36.38 0-59 22.67-59 59.18v19.74c0 36.5 22.61 59.18 59 59.18s59-22.68 59-59.18v-19.74c-.01-36.55-22.65-59.18-59-59.18zm34.66 80.27c0 24.24-12.63 38.14-34.66 38.14S283 159.88 283 135.64v-22.45c0-24.24 12.64-38.14 34.66-38.14s34.66 13.9 34.66 38.14zm98.31-45.06c-12.36 0-23.06 5.12-28.64 13.69l-2.53 3.9V92.9h-22.4v131.53h23.56v-47.64l2.52 3.74c5.3 7.86 15.65 12.55 27.69 12.55 20.31 0 40.8-13.27 40.8-42.93v-16.64c0-21.37-12.63-42.93-41-42.93zM468.06 149c0 15.77-9.2 25.57-24 25.57-13.8 0-23.43-10.36-23.43-25.18v-14.72c0-15 9.71-25.56 23.63-25.56 14.69 0 23.82 9.79 23.82 25.56zm298.47-90.92L719 190.76h23.93l9.1-28.44h54.64l.09.28 9 28.16h23.92L792.07 58.07zm-8.66 85.53l21.44-67.08 21.22 67.08zM212.59 95.12a57.27 57.27 0 0 0-4.92-47.05 58 58 0 0 0-62.4-27.79A57.29 57.29 0 0 0 102.06 1a57.94 57.94 0 0 0-55.27 40.14A57.31 57.31 0 0 0 8.5 68.93a58 58 0 0 0 7.13 67.94 57.31 57.31 0 0 0 4.92 47A58 58 0 0 0 83 211.72 57.31 57.31 0 0 0 126.16 231a57.94 57.94 0 0 0 55.27-40.14 57.3 57.3 0 0 0 38.28-27.79 57.92 57.92 0 0 0-7.12-67.95zM126.16 216a42.93 42.93 0 0 1-27.58-10c.34-.19 1-.52 1.38-.77l45.8-26.44a7.43 7.43 0 0 0 3.76-6.51V107.7l19.35 11.17a.67.67 0 0 1 .38.54v53.45A43.14 43.14 0 0 1 126.16 216zm-92.59-39.54a43 43 0 0 1-5.15-28.88c.34.21.94.57 1.36.81l45.81 26.45a7.44 7.44 0 0 0 7.52 0L139 142.52v22.34a.67.67 0 0 1-.27.6l-46.3 26.72a43.14 43.14 0 0 1-58.86-15.77zm-12-100A42.92 42.92 0 0 1 44 57.56V112a7.45 7.45 0 0 0 3.76 6.51l55.9 32.28L84.24 162a.68.68 0 0 1-.65.06L37.3 135.33a43.13 43.13 0 0 1-15.77-58.87zm159 37l-55.9-32.28L144 70a.69.69 0 0 1 .65-.06l46.29 26.73a43.1 43.1 0 0 1-6.66 77.76V120a7.44 7.44 0 0 0-3.74-6.54zm19.27-29c-.34-.21-.94-.57-1.36-.81L152.67 57.2a7.44 7.44 0 0 0-7.52 0l-55.9 32.27V67.14a.73.73 0 0 1 .28-.6l46.29-26.72a43.1 43.1 0 0 1 64 44.65zM78.7 124.3l-19.36-11.17a.73.73 0 0 1-.37-.54V59.14A43.09 43.09 0 0 1 129.64 26c-.34.19-.95.52-1.38.77l-45.8 26.44a7.45 7.45 0 0 0-3.76 6.51zm10.51-22.67l24.9-14.38L139 101.63v28.74l-24.9 14.38-24.9-14.38z" fill="currentColor"/></svg>
+
+    <svg className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto sm:mx-0 text-neutral-500" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2428 1002"><path fill-rule="evenodd" clip-rule="evenodd" d="M311.5 389.8h191.8l67 117.5 77.8-117.5h178.3L682.7 590.7l154 220.7H648.1l-77.8-135.8-91.7 135.8h-175l153.2-220.7-145.3-200.9Z" fill="currentColor"/><path fill-rule="evenodd" clip-rule="evenodd" d="M1279.3 640.7H955.4c2.9 26 10 45.2 21 58a76.5 76.5 0 0 0 61.1 27.3c16 0 31.5-4 45.3-12 8.8-5 18.2-13.7 28.2-26.5l159.2 14.7c-24.4 42.4-53.7 72.7-88 91.2-34.5 18.2-83.8 27.5-148.2 27.5-55.8 0-99.7-7.9-131.8-23.6a193.2 193.2 0 0 1-79.6-75c-21-34.4-31.6-74.6-31.6-121 0-65.8 21.2-119.2 63.3-159.8 42.3-40.8 100.6-61.3 175-61.3 60.3 0 108 9.2 142.8 27.5a184 184 0 0 1 79.8 79.3c18.3 34.7 27.4 79.8 27.4 135.3v18.4ZM1115 563.3c-3.2-31.3-11.6-53.7-25.2-67.1a73.1 73.1 0 0 0-53.8-20.3 73.6 73.6 0 0 0-61.6 30.6c-9.7 12.7-16 31.6-18.5 56.8H1115Zm137-173.5h168.3l81.9 267.1 84.5-267H1750l-179.1 421.5h-143.3L1252 389.8Zm463.2 212c0-64.3 21.7-117.4 65-159 43.5-41.7 102-62.6 176-62.6 84.4 0 148.2 24.5 191.3 73.5 34.6 39.4 52 88 52 145.8 0 64.7-21.5 117.8-64.5 159.3-43 41.3-102.4 62-178.5 62-67.7 0-122.5-17.1-164.3-51.5-51.4-42.6-77-98.4-77-167.6Zm162-.5c0 37.7 7.5 65.5 22.8 83.4a72 72 0 0 0 57.3 27.1c23.4 0 42.5-9 57.4-26.7 15-17.8 22.5-46 22.5-85.4 0-36.4-7.6-63.7-22.7-81.5a70.5 70.5 0 0 0-56-26.7c-23.5 0-43 9-58.3 27-15.4 18.2-23 45.9-23 82.8ZM2363.1.1a64 64 0 0 1 0 127.9 64 64 0 0 1 0-128Z" fill="currentColor"/><path fill-rule="evenodd" clip-rule="evenodd" d="M1912.1 671.5c220.3-135 326.4-327 334-419.2 8.7-106.7-71-235.9-358.9-238-345 3.6-790 158.3-1163.6 360.4h138c315.8-152.6 672-266.2 1000.8-275.2 287.7-7.8 304.4 149.2 302 199-3.6 71-74.7 234.5-252.3 373Zm-1315.7-222-36 22.7 10 17.5 26-40.1ZM419.8 567.5C212 717 57 873.2.8 1001.9 77.8 897.1 217 771 394.9 647l40.4-58.1-15.5-21.4Z" fill="currentColor"/><path fill-rule="evenodd" clip-rule="evenodd" d="M2036.3 580a819.8 819.8 0 0 0 114.2-122.8l-3-3.5c-8-9.2-17-17.5-26.5-25-21 39.8-50 83.7-88.2 128.3 1.6 7 2.8 14.7 3.5 23Z" fill="currentColor"/></svg>
+
+    <svg className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto sm:mx-0 text-neutral-500" viewBox="0 -8.881784197001252e-16 267.51517722360785 65.24679557585003" xmlns="http://www.w3.org/2000/svg" width="2500" height="610"><path d="M263.043 56.411a4.418 4.418 0 1 0 .085 0zm0 8.33a3.874 3.874 0 1 1 3.809-3.938v.065a3.791 3.791 0 0 1-3.708 3.871h-.1m-16.96-9.535h-9.6V40.17c0-3.585-.064-8.2-4.993-8.2-5 0-5.765 3.906-5.765 7.939v15.294h-9.6V24.287h9.216v4.225h.129a10.1 10.1 0 0 1 9.093-4.994c9.73 0 11.524 6.4 11.524 14.726zm-40.79-35.143a5.571 5.571 0 1 1 5.57-5.572 5.571 5.571 0 0 1-5.57 5.572m4.8 35.143h-9.61V24.287h9.61zM250.87.004h-55.21a4.728 4.728 0 0 0-4.781 4.67v55.439a4.731 4.731 0 0 0 4.781 4.675h55.21a4.741 4.741 0 0 0 4.8-4.675V4.67a4.738 4.738 0 0 0-4.8-4.67m-86.12 31.749c-4.8 0-7.68 3.205-7.68 7.875s2.879 7.878 7.68 7.878 7.687-3.2 7.687-7.878-2.881-7.875-7.687-7.875m16.525 23.437h-8.838v-4.1h-.131a12.071 12.071 0 0 1-9.544 4.868c-9.224 0-15.3-6.657-15.3-16.071 0-8.646 5.377-16.585 14.216-16.585 3.973 0 7.684 1.087 9.861 4.1h.126V9.577h9.609zm-46.139-19.048a5.756 5.756 0 0 0-5.894-5.89 6.406 6.406 0 0 0-6.784 5.89zm8.132 13.7a16.909 16.909 0 0 1-13.128 6.151c-9.6 0-17.286-6.408-17.286-16.331s7.685-16.328 17.286-16.328c8.973 0 14.6 6.4 14.6 16.328v3.01h-22.282a7.171 7.171 0 0 0 7.235 6.019 8.193 8.193 0 0 0 6.851-3.778zM47.834 24.279h9.219v4.225h.131a10.085 10.085 0 0 1 9.09-4.994c9.735 0 11.527 6.405 11.527 14.726V55.19h-9.6V40.159c0-3.588-.066-8.2-5-8.2-4.99 0-5.76 3.907-5.76 7.939v15.288h-9.6zM82.669 9.58h9.6v27.265l10.88-12.583h11.77l-12.6 14.313 12.335 16.63h-12.066L92.397 39.923h-.126v15.28h-9.6zM32.911 24.276h9.6v30.916h-9.6zm4.8-15.37a5.569 5.569 0 1 1-5.57 5.569 5.569 5.569 0 0 1 5.57-5.569M0 9.587h9.993v36.4h18.5v9.222H0zm263.744 51.522a1.2 1.2 0 0 0 1.21-1.269c0-.9-.543-1.33-1.657-1.33h-1.8v4.712h.677v-2.054h.832l.019.025 1.291 2.029h.724l-1.389-2.1zm-.783-.472h-.785v-1.593h.995c.514 0 1.1.084 1.1.757 0 .774-.593.836-1.314.836" fill="currentColor"/></svg>
+  </div>
+</div>
+  );
+}
+
+function Products() {
+  return (
+    <div id='products' className="relative z-30 max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
+          <div className="h-52 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-green-300/10  to-green-300/0 rounded-t-xl">
+            <img src="img/auditylogo.svg" className='w-32 p-6 border border-green-300/30 bg-neutral-900 shadow-green-300/30 shadow-2xl rounded-2xl' />
+          </div>
+          <div className="p-4 md:p-6">
+            <span className="block mb-1 text-xs font-semibold uppercase text-green-300">
+              Security
+            </span>
+            <h3 className="text-xl font-semibold text-white">
+              Audity
+            </h3>
+            <p className="mt-3 text-neutral-400">
+            Audity analyzes liquidity, holders, wash trading, smart contracts, and social metrics, generating a comprehensive score for cryptocurrency tokens.
+            </p>
+          </div>
+          <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
+            <a
+              className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-neutral-700/20 hover:text-white focus:outline-none focus:bg-neutral-700/20 focus:text-white disabled:opacity-50 disabled:pointer-events-none"
+              target="_blank"
+              href="https://audity.w3bots.de"
+            >
+              Website
+            </a>
+            <a
+              className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl shadow-sm hover:bg-neutral-700/20 hover:text-white focus:outline-none focus:bg-neutral-700/20 focus:text-white disabled:opacity-50 disabled:pointer-events-none"
+              target="_blank"
+              href="https://t.me/audity_w3bot"
+            >
+              Bot
+            </a>
+          </div>
+        </div>
+
+        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
+          <div className="h-52 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-yellow-500/10  to-indigo-500/0 rounded-t-xl">
+            <img src="img/acedemylogo.svg" className='w-32 p-6 border border-yellow-500/50 bg-neutral-900 rounded-2xl shadow-yellow-600/30 shadow-2xl' />
+          </div>
+          <div className="p-4 md:p-6">
+            <span className="block mb-1 text-xs font-semibold uppercase text-yellow-400">
+            Learning Platform
+            </span>
+            <h3 className="text-xl font-semibold text-white">
+              Academy
+            </h3>
+            <p className="mt-3 text-neutral-400">
+            Academy is an AI-powered learning platform that helps users master Web3 concepts, from trading and wallets to setups and strategies. Perfect for beginners and pros alike.
+</p>
+          </div>
+          <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
+            <a aria-disabled className="w-full text-neutral-500 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
+            Stage: Development
+            </a>
+            
+          </div>
+        </div>
+
+
+        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
+          <div className="h-52 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-cyan-300/10  to-cyan-300/0 rounded-t-xl">
+            <img src="img/swapylogo.svg" className='w-32 p-6 border border-cyan-500/50 bg-neutral-900 shadow-cyan-600/30 shadow-2xl rounded-2xl' />
+          </div>
+          <div className="p-4 md:p-6">
+            <span className="block mb-1 text-xs font-semibold uppercase text-cyan-300">
+              Dex Aggregator
+            </span>
+            <h3 className="text-xl font-semibold text-white">
+              Swapy
+            </h3>
+            <p className="mt-3 text-neutral-400">
+            Swapy combines multiple DEX providers into a single access point to make token swaps seamless and efficient. Invest easily, securely and affordably in just a few steps.
+          </p>
+          </div>
+          <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
+          <a aria-disabled className="w-full text-neutral-500 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
+            Stage: Testing
+            </a>
+            
+          </div>
+        </div>
+
+        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
+          <div className="h-52 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-indigo-500/10  to-indigo-500/0 rounded-t-xl">
+            <img src="img/tradylogo.svg" className='w-32 p-6 border border-indigo-500/50 bg-neutral-900 rounded-2xl shadow-indigo-600/30 shadow-2xl' />
+          </div>
+          <div className="p-4 md:p-6">
+            <span className="block mb-1 text-xs font-semibold uppercase text-indigo-400">
+            Trade- & Risk-Management
+            </span>
+            <h3 className="text-xl font-semibold text-white">
+              Trady
+            </h3>
+            <p className="mt-3 text-neutral-400">
+            Trady is an AI-powered automatic investment bot for tokens, managing investments and payouts seamlessly.
+            </p>
+
+          </div>
+          <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
+          <a aria-disabled className="w-full text-neutral-500 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
+            Stage: Development
+            </a>
+            
+          </div>
+        </div>
+
+        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
+          <div className="h-52 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-blue-500/10  to-blue-500/0 rounded-t-xl">
+            <img src="img/poolylogo.svg" className='w-32 p-6 border border-blue-500/50 bg-neutral-900 rounded-2xl shadow-blue-600/30 shadow-2xl' />
+          </div>
+          <div className="p-4 md:p-6">
+            <span className="block mb-1 text-xs font-semibold uppercase text-blue-400">
+            Liquidity Pools investment
+            </span>
+            <h3 className="text-xl font-semibold text-white">
+            Pooly
+            </h3>
+            <p className="mt-3 text-neutral-400">
+            Pooly simplifies investing in cryptocurrency liquidity pools with a single asset purchase, making it easy for users to participate in DeFi and earn rewards without the complexity of pairings.            </p>
+
+          </div>
+          <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
+          <a aria-disabled className="w-full text-neutral-500 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
+            Stage: Development
+            </a>
+            
+          </div>
+        </div>
+
+        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
+          <div className="h-52 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-red-500/10  to-red-500/0 rounded-t-xl">
+            <img src="img/lootylogo.svg" className='w-32 p-6 border border-yellow-500/50 bg-neutral-900 rounded-2xl shadow-yellow-600/30 shadow-2xl' />
+          </div>
+          <div className="p-4 md:p-6">
+            <span className="block mb-1 text-xs font-semibold uppercase text-red-400">
+            Interactive Reward System
+            </span>
+            <h3 className="text-xl font-semibold text-white">
+              Looty
+            </h3>
+            <p className="mt-3 text-neutral-400">
+            Looty offers a flexible way to strengthen interaction in communities and create new revenue opportunities for project owners.            </p>
+
+          </div>
+          <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
+          <a aria-disabled className="w-full text-neutral-500 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
+            Stage: Development
+            </a>
+            
+          </div>
+        </div>
+      
+       
+      </div>
+    </div>
+  );
+}
+
+function Stats(){
+  return(
+    <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div className="grid gap-6 grid-cols-2 sm:gap-12 lg:grid-cols-4 lg:gap-8">
+        
+        <div className='text-center'>
+          <h4 className="text-lg sm:text-xl font-semibold text-neutral-500">Bots & dApps</h4>
+          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-white">+1</p>
+          <p className="mt-1 text-neutral-400">Live</p>
+        </div>
+
+        <div className='text-center'>
+          <h4 className="text-lg sm:text-xl font-semibold text-neutral-500">Available for</h4>
+          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-white">+1</p>
+          <p className="mt-1 text-neutral-400">Blockchains</p>
+        </div>
+
+        <div className='text-center'>
+          <h4 className="text-lg sm:text-xl font-semibold text-neutral-500">Total Users</h4>
+          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-white">+3</p>
+          <p className="mt-1 text-neutral-400">Across All Our Bots</p>
+        </div>
+     
+        <div className='text-center'>
+          <h4 className="text-lg sm:text-xl font-semibold text-neutral-500">APIs</h4>
+          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-white">0</p>
+          <p className="mt-1 text-neutral-400">Live</p>
+        </div>
+
+
+      </div>
+    </div>
+  );
+}
+
+function JoinWaitlist(){
+  return(
+    <div className="">
+      <div className="mx-auto py-12 sm:px-6 sm:py-12">
+        <div className="mx-4 rounded-xl relative isolate overflow-hidden p-8 border border-neutral-800/30 bg-neutral-900/5 bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-red-500/10 via-red-300/0  to-green-300/0  shadow-2xl sm:rounded-3xl ">
+        
+        <svg  className="absolute inset-0 opacity-10 z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='40' height='59.428' patternTransform='scale(1) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='#0f0f0fff'/><path d='M0 70.975V47.881m20-1.692L8.535 52.808v13.239L20 72.667l11.465-6.62V52.808zm0-32.95l11.465-6.62V-6.619L20-13.24 8.535-6.619V6.619L20 13.24m8.535 4.927v13.238L40 38.024l11.465-6.62V18.166L40 11.546zM20 36.333L0 47.88m0 0v23.094m0 0l20 11.548 20-11.548V47.88m0 0L20 36.333m0 0l20 11.549M0 11.547l-11.465 6.619v13.239L0 38.025l11.465-6.62v-13.24L0 11.548v-23.094l20-11.547 20 11.547v23.094M20 36.333V13.24'  stroke-linejoin='round' stroke-linecap='round' stroke-width='0.5' stroke='#1b1b1bff' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-15,-43.856)' fill='url(#a)'/></svg>
+        
+        <div className='backdrop-blur-sm relative z-30 w-full flex p-4 rounded-xl'>
+            <div className="mx-auto text-center lg:py-16 ">
+              <h2 className="text-5xl font-bold tracking-tight text-white sm:text-8xl">
+                Join Waitlist now!
+              </h2>
+              <p className="mt-6 text-lg leading-8 text-neutral-300">
+              Join discussions on token insights, exchange ideas, and stay updated on our latest updates.
+              </p>
+             
+              <a href="#products" className="mt-12 hover:shadow-xl hover:shadow-white/5 relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white border border-neutral-700 rounded-full hover:text-neutral-900 hover:no-underline group ">
+                <span className="absolute left-0 block w-full h-0 transition-all bg-white/10 opacity-100 group-hover:h-full top-1/2  group-hover:top-0 duration-400 ease"></span>
+                <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease group:hover:text-neutral-100">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </span>
+                <span className="relative ">Join Waitlist</span>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+
+function Community(){
+  return(
+    <div className="">
+      <div className="mx-auto py-12 sm:px-6 sm:py-12">
+        <div className="mx-4 rounded-xl relative isolate overflow-hidden p-8 border border-neutral-800 bg-neutral-900 bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-blue-500/10 via-indigo-300/0  to-indigo-300/0  shadow-2xl sm:rounded-3xl ">
+        <svg
+          className="absolute inset-0 opacity-10 z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+          aria-hidden="true">
+          <defs>
+            <pattern id="0787a7c5-978c-4f66-83c7-11c213f99cb7" width="400" height="400" x="10%" y="-1"
+              patternUnits="userSpaceOnUse">
+              <path d="M.5 200V.5H200" fill="none"></path>
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" stroke-width="0" fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)"></rect>
+        </svg>
+        <div className='backdrop-blur-sm relative z-30 w-full flex p-4 rounded-xl'>
+            <div className="mx-auto text-center lg:py-16 ">
+              <h2 className="text-5xl font-bold tracking-tight text-white sm:text-8xl">
+                Join our Community!
+              </h2>
+              <p className="mt-6 text-lg leading-8 text-neutral-300">
+              Join discussions on token insights, exchange ideas, and stay updated on our latest updates.
+              </p>
+              <div className="mt-10 flex items-center justify-center gap-x-6">
+                <a
+                  href="https://t.me/w3bots_community"
+                  className="text-sm font-semibold text-gray-900 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                >
+                  <img
+                    src="img/telegramlogo.svg"
+                    className="w-40 md:w-64 p-6 rounded-full transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-blue-500"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Benefits(){
+  return(
+    <div className="py-12 sm:py-16 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-neutral-500/20 via-slate-950/0 to-slate-950/0">
+  <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
+  <div className="flex justify-center">
+      <a className="inline-flex items-center gap-x-2 border border-neutral-600 text-xs text-white bg-neutral-800 p-2 px-3 rounded-full transition hover:border-gray-300 focus:outline-none focus:border-gray-300" href="#">
+        For User, Content Manager and Developers
+        
+      </a>
+    </div>
+    <p className="mx-auto mt-4 text-pretty text-center text-5xl md:text-7xl font-bold tracking-tight sm:text-5xl">
+    Seamless Usability
+    </p>
+    <div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-2 lg:grid-rows-2">
+      <div className="relative lg:row-span-2">
+        <div className="absolute inset-px rounded-xl border border-neutral-700 text-white bg-neutral-900/50"></div>
+        <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
+          <div className="px-8 pb-3 pt-8 sm:px-10 sm:pb-0 sm:pt-10">
+            <p className="mt-2 text-lg/7 font-medium tracking-tight max-lg:text-center">User friendly</p>
+            <p className="mt-2 max-w-lg text-base text-neutral-400 max-lg:text-center">
+            We focus on simplicity and clarity, making our bots and web applications easy to use. Our tools are designed for an intuitive experience, ensuring smooth navigation and quick access to essential features.            </p>
+          </div>
+          <div className="relative -top-1 min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm">
+            <div className="absolute inset-x-10 bottom-0 top-10 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-neutral-700 bg-neutral-900 shadow-2xl">
+            </div>
+          </div>
+        </div>
+        <div className="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 lg:rounded-l-[2rem]"></div>
+      </div>
+      <div className="relative max-lg:row-start-1">
+        <div className="absolute inset-px rounded-xl border border-neutral-700 text-white bg-neutral-900/50"></div>
+        <div className="relative flex h-full flex-col overflow-hidden">
+          <div className="px-8 pt-8 sm:px-10 sm:pt-10">
+            <p className="mt-2 text-lg/7 font-medium tracking-tight max-lg:text-center">Powerful APIs & Tools</p>
+            <p className="mt-2 max-w-lg text-base text-neutral-400 max-lg:text-center">
+            We offer developers a range of robust APIs and tools for easy integration into their own projects, streamlining the process and enhancing functionality.
+            </p>
+          </div>
+          <div className="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2">
+          </div>
+        </div>
+        <div className="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 max-lg:rounded-t-[2rem]"></div>
+      </div>
+      <div className="relative max-lg:row-start-3 lg:col-start-2 lg:row-start-2">
+        <div className="absolute inset-px rounded-xl border border-neutral-700 text-white bg-neutral-900/50"></div>
+        <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)]">
+          <div className="px-8 pt-8 sm:px-10 sm:pt-10">
+            <p className="mt-2 text-lg/7 font-medium tracking-tight max-lg:text-center">Security</p>
+            <p className="mt-2 max-w-lg text-base text-neutral-400 max-lg:text-center">We offer tools that prioritize user data ownership, minimizing storage and ensuring encryption as a standard for all our solutions.</p>
+          </div>
+          <div className="flex flex-1 items-center [container-type:inline-size] max-lg:py-6 lg:pb-2">
+          </div>
+        </div>
+        <div className="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5"></div>
+      </div>
+     
+    </div>
+  </div>
+</div>
+  );
+}
+
+
+export default function Home(): JSX.Element {
+  const {siteConfig} = useDocusaurusContext();
+  
+  React.useEffect(() => {
+    document.title = `W3BOTS - Innovating with Passion for Web3`;
+
+  }, []);
+  
+  return (
+    <Layout>
+
+  <div className='bg-neutral-900'>
+
+    <HomepageHeader />
+
+      <main>
+      <Stats />
+      <Products />
+      <JoinWaitlist />
+      <Community />
+      </main>
+      </div>
+      </Layout>
+
+      );
+}
