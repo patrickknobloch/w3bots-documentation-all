@@ -1,8 +1,17 @@
 kostakis:
   name: Mi T
-  title: Founder @ W3BOTS
+  title: CEO/Founder @ W3BOTS
   url: https://github.com/kostakismt
   image_url: https://github.com/kostakismt.png
   page: true
   socials:
     github: KostakisMT
+
+PK:
+  name: Pa K
+  title: Founder/COO @ W3BOTS
+  url: https://github.com/
+  image_url: https://github.com/
+  page: true
+  socials:
+    github: TBD
