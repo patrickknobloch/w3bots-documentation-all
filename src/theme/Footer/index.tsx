@@ -2,12 +2,14 @@ import React from 'react';
 import Footer from '@theme-original/Footer';
 import type FooterType from '@theme/Footer';
 import type {WrapperProps} from '@docusaurus/types';
+import { Analytics } from "@vercel/analytics/react"
 
 type Props = WrapperProps<typeof FooterType>;
 
 export default function FooterWrapper(props: Props): JSX.Element {
   return (
     <>
+<Analytics/>
   <footer className=" mt-auto w-full max-w-[85rem] py-10 px-8 sm:px-6 lg:px-8 mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6 mb-10">
           <div className="col-span-full lg:col-span-1 lg:block items-center mt-2">
