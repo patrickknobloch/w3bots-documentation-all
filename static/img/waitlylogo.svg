@@ -1,0 +1,14 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 658 600" width="658" height="600">
+	 <defs>
+    <radialGradient id="radial-gradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#34d399 ;" />
+      <stop offset="100%" style="stop-color: #5eead4;" />
+    </radialGradient>
+  </defs>
+  <style>
+    .s0 { fill: url(#radial-gradient); } 
+  </style>
+	<path id="Form 1 copy" class="s0" d="m649 6v321l-117-321z"/>
+	<path id="Farbfüllung 1" class="s0" d="m7 7l162-1 216 586-164-1zm0 0l162-1 216 587-164-1zm0 0l162-1 216 587-164-1z"/>
+	<path id="Farbfüllung 1 copy" class="s0" d="m271 7l162-1 216 586-164-1zm0 0l162-1 216 587-164-1zm0 0l162-1 216 587-164-1z"/>
+</svg>
