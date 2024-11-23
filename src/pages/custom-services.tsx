@@ -78,8 +78,8 @@ function Products() {
     <div id="products" className="relative z-30 max-w-[85rem] px-4 py-12 sm:px-6 lg:px-8 lg:py-14 mx-auto">
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
-        <div className="group flex flex-col h-full bg-neutral-700/30 border border-neutral-600 text-white shadow-md rounded-xl transform transition-transform duration-300 hover:scale-105 dark:bg-neutral-900 dark:shadow-neutral-700/60">
-          <div className="h-6 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-green-300/20 to-green-300/0 rounded-t-xl">
+        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
+          <div className="h-2 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-green-300/20 to-green-300/0 rounded-t-xl">
           </div>
           <div className="p-5 md:p-7">
             <h3 className="mb-2 text-xl font-bold uppercase text-green-300">
@@ -98,8 +98,8 @@ function Products() {
           </div>
         </div>
 
-        <div className="group flex flex-col h-full bg-neutral-700/30 border border-neutral-600 text-white shadow-md rounded-xl transform transition-transform duration-300 hover:scale-105 dark:bg-neutral-900 dark:shadow-neutral-700/60">
-          <div className="h-6 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-yellow-500/20 to-indigo-500/0 rounded-t-xl">
+        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
+          <div className="h-2 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-yellow-500/20 to-indigo-500/0 rounded-t-xl">
           </div>
           <div className="p-5 md:p-7">
             <h3 className="mb-2 text-xl font-bold uppercase text-yellow-400">
@@ -118,8 +118,8 @@ function Products() {
           </div>
         </div>
 
-        <div className="group flex flex-col h-full bg-neutral-700/30 border border-neutral-600 text-white shadow-md rounded-xl transform transition-transform duration-300 hover:scale-105 dark:bg-neutral-900 dark:shadow-neutral-700/60">
-          <div className="h-6 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-cyan-300/20 to-cyan-300/0 rounded-t-xl">
+        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
+          <div className="h-2 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-cyan-300/20 to-cyan-300/0 rounded-t-xl">
           </div>
           <div className="p-5 md:p-7">
             <h3 className="mb-2 text-xl font-bold uppercase text-cyan-300">
@@ -138,8 +138,8 @@ function Products() {
           </div>
         </div>
 
-        <div className="group flex flex-col h-full bg-neutral-700/30 border border-neutral-600 text-white shadow-md rounded-xl transform transition-transform duration-300 hover:scale-105 dark:bg-neutral-900 dark:shadow-neutral-700/60">
-          <div className="h-6 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-indigo-500/20 to-indigo-500/0 rounded-t-xl">
+        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
+          <div className="h-2 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-indigo-500/20 to-indigo-500/0 rounded-t-xl">
           </div>
           <div className="p-5 md:p-7">
             <h3 className="mb-2 text-xl font-bold uppercase text-indigo-400">
@@ -157,8 +157,8 @@ function Products() {
           </div>
         </div>
 
-        <div className="group flex flex-col h-full bg-neutral-700/30 border border-neutral-600 text-white shadow-md rounded-xl transform transition-transform duration-300 hover:scale-105 dark:bg-neutral-900 dark:shadow-neutral-700/60">
-          <div className="h-6 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-blue-500/20 to-blue-500/0 rounded-t-xl">
+        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
+          <div className="h-2 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-blue-500/20 to-blue-500/0 rounded-t-xl">
           </div>
           <div className="p-5 md:p-7">
             <h3 className="mb-2 text-xl font-bold uppercase text-blue-400">
@@ -176,8 +176,8 @@ function Products() {
           </div>
         </div>
 
-        <div className="group flex flex-col h-full bg-neutral-700/30 border border-neutral-600 text-white shadow-md rounded-xl transform transition-transform duration-300 hover:scale-105 dark:bg-neutral-900 dark:shadow-neutral-700/60">
-          <div className="h-6 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-red-500/20 to-red-500/0 rounded-t-xl">
+        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
+          <div className="h-2 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-red-500/20 to-red-500/0 rounded-t-xl">
           </div>
           <div className="p-5 md:p-7">
             <h3 className="mb-2 text-xl font-bold uppercase text-red-400">
@@ -212,7 +212,7 @@ function WhyChooseW3BOTS() {
             <h3 className="mb-3 text-xl font-bold text-white">
               Creative Excellence
             </h3>
-            <span className="block text-lg font-semibold text-neutral-100">
+            <span className="block text-lg text-neutral-100/70">
               Award-winning team of designers, developers, and artists delivering exceptional digital experiences.
             </span>
           </div>
@@ -224,7 +224,7 @@ function WhyChooseW3BOTS() {
             <h3 className="mb-3 text-xl font-bold text-white">
               Technical Mastery
             </h3>
-            <span className="block text-lg font-semibold text-neutral-100">
+            <span className="block text-lg text-neutral-100/70">
               Deep expertise in game development, blockchain, and cutting-edge technologies.
             </span>
           </div>
@@ -236,7 +236,7 @@ function WhyChooseW3BOTS() {
             <h3 className="mb-3 text-xl font-bold text-white">
               Proven Track Record
             </h3>
-            <span className="block text-lg font-semibold text-neutral-100">
+            <span className="block text-lg text-neutral-100/70">
               Successfully delivered projects for AAA games and major entertainment brands.
             </span>
           </div>
@@ -248,7 +248,7 @@ function WhyChooseW3BOTS() {
             <h3 className="mb-3 text-xl font-bold text-white">
               End-to-End Support
             </h3>
-            <span className="block text-lg font-semibold text-neutral-100">
+            <span className="block text-lg text-neutral-100/70">
               Comprehensive support from concept to deployment and beyond.
             </span>
           </div>
@@ -278,7 +278,7 @@ function Community(){
         </svg>
         <div className='backdrop-blur-sm relative z-30 w-full flex p-4 rounded-xl'>
             <div className="mx-auto text-center lg:py-16 ">
-              <h2 className="text-5xl font-bold tracking-tight text-white sm:text-8xl">
+              <h2 className="text-3xl font-bold tracking-tight text-white sm:text-6xl">
               Let's Create Something Amazing
               </h2>
               <p className="mt-6 text-lg leading-8 text-neutral-300">
