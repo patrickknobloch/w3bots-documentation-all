@@ -10,8 +10,8 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (<header className=' text-white bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-300/10 via-blue-950/0 to-slate-950/0'>
    
-    <svg
-      className="absolute inset-0 opacity-10 z-10 h-full w-full stroke-gravy-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+   <svg
+      className="absolute inset-0 opacity-10 z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
       aria-hidden="true">
       <defs>
         <pattern id="0787a7c5-978c-4f66-83c7-11c213f99cb7" width="200" height="200" x="50%" y="-1"
