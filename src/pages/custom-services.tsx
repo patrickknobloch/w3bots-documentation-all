@@ -206,7 +206,7 @@ function WhyChooseW3BOTS() {
       <h2 className="text-3xl font-bold text-center mb-8 text-white">Why Choose W3BOTS?</h2>
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
-        <div className="group flex flex-col h-full bg-neutral-700/30 border border-neutral-600 text-white shadow-md rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/60">
+        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
           
           <div className="p-5 md:p-7">
             <h3 className="mb-3 text-xl font-bold text-white">
@@ -218,7 +218,7 @@ function WhyChooseW3BOTS() {
           </div>
         </div>
 
-        <div className="group flex flex-col h-full bg-neutral-700/30 border border-neutral-600 text-white shadow-md rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/60">
+        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
           
           <div className="p-5 md:p-7">
             <h3 className="mb-3 text-xl font-bold text-white">
@@ -230,7 +230,7 @@ function WhyChooseW3BOTS() {
           </div>
         </div>
 
-        <div className="group flex flex-col h-full bg-neutral-700/30 border border-neutral-600 text-white shadow-md rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/60">
+        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
           
           <div className="p-5 md:p-7">
             <h3 className="mb-3 text-xl font-bold text-white">
@@ -242,7 +242,7 @@ function WhyChooseW3BOTS() {
           </div>
         </div>
 
-        <div className="group flex flex-col h-full bg-neutral-700/30 border border-neutral-600 text-white shadow-md rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/60">
+        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
           
           <div className="p-5 md:p-7">
             <h3 className="mb-3 text-xl font-bold text-white">
