@@ -46,6 +46,10 @@ article ul li{
   
 }
 
+.navbar__title {
+  display: none;
+}
+
 .col {
   background: #171717;
 }
