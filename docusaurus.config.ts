@@ -12,7 +12,7 @@ const config: Config = {
   baseUrl: '/',
 
   organizationName: 'facebook', 
-  projectName: 'W3BOTS', 
+  projectName: 'W3BOTS - Innovating with Passion for Web3', 
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
