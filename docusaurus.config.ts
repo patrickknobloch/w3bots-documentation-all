@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'W3BOTS',
+  title: 'W3BOTS - Innovating with Passion for Web3',
   tagline: 'We drive web3 adoption by developing innovative tools and bots that simplify complex processes and enhance user experience and engagement.',
   favicon: 'img/favicon.ico',
 
