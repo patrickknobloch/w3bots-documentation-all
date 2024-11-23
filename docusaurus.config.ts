@@ -52,9 +52,9 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/social-card-image-w3bots.png',
     navbar: {
-      title: '',
+      title: 'W3BOTS - Innovating with Passion for Web3',
       logo: {
         alt: 'w3bots',
         src: 'img/logo.svg',
