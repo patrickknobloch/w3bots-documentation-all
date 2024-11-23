@@ -11,7 +11,7 @@ function HomepageHeader() {
   return (<header className=' text-white bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-300/10 via-blue-950/0 to-slate-950/0'>
    
     <svg
-      className="absolute inset-0 opacity-10 z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+      className="absolute inset-0 opacity-10 z-10 h-full w-full stroke-gravy-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
       aria-hidden="true">
       <defs>
         <pattern id="0787a7c5-978c-4f66-83c7-11c213f99cb7" width="200" height="200" x="50%" y="-1"
@@ -27,14 +27,15 @@ function HomepageHeader() {
   
    
     <div className="mt-5 max-w-4xl text-center mx-auto">
-      <h1 className="block font-bold text-4xl md:text-7xl lg:text-8xl">
-      Innovating with Passion for Web3
+      <h1 className="block font-bold text-4xl md:text-6xl lg:text-7xl">
+      Custom Development Services
       </h1>
     </div>
 
     <div className="mt-5 max-w-3xl text-center mx-auto">
       <p className="text-lg text-neutral-400 ">
-      We accelerate Web3 adoption with innovative tools and bots that simplify complexity, enhance user experience, and drive community engagement.      </p>
+      Your Vision, Our Expertise – Transforming Ideas into Reality
+      </p>
     </div>
 
     <div className="mt-8 gap-3 flex justify-center">
@@ -43,7 +44,7 @@ function HomepageHeader() {
         <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease group:hover:text-neutral-100">
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
         </span>
-        <span className="relative ">Discover our Products</span>
+        <span className="relative ">Get in Touch</span>
       </a>
     </div>
   </div>
@@ -74,228 +75,185 @@ function Partnerships(){
 
 function Products() {
   return (
-    <div id='products' className="relative z-30 max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        
-        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
-          <div className="h-52 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-green-300/10  to-green-300/0 rounded-t-xl">
-            <img src="img/auditylogo.svg" className='w-32 p-6 border border-green-300/30 bg-neutral-900 shadow-green-300/30 shadow-2xl rounded-2xl' />
+    <div id="products" className="relative z-30 max-w-[85rem] px-4 py-12 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <div className="group flex flex-col h-full bg-neutral-700/30 border border-neutral-600 text-white shadow-md rounded-xl transform transition-transform duration-300 hover:scale-105 dark:bg-neutral-900 dark:shadow-neutral-700/60">
+          <div className="h-6 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-green-300/20 to-green-300/0 rounded-t-xl">
           </div>
-          <div className="p-4 md:p-6">
-            <span className="block mb-1 text-xs font-semibold uppercase text-green-300">
-              Security
-            </span>
-            <h3 className="text-xl font-semibold text-white">
-              Audity
+          <div className="p-5 md:p-7">
+            <h3 className="mb-2 text-xl font-bold uppercase text-green-300">
+              Game Development & Design
             </h3>
-            <p className="mt-3 text-neutral-400">
-            Audity analyzes liquidity, holders, wash trading, smart contracts, and social metrics, generating a comprehensive score for cryptocurrency tokens.
-            </p>
-          </div>
-          <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
-            <a
-              className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-neutral-700/20 hover:text-white focus:outline-none focus:bg-neutral-700/20 focus:text-white disabled:opacity-50 disabled:pointer-events-none"
-              target="_blank"
-              href="https://audity.w3bots.de"
-            >
-              Website
-            </a>
-            <a
-              className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl shadow-sm hover:bg-neutral-700/20 hover:text-white focus:outline-none focus:bg-neutral-700/20 focus:text-white disabled:opacity-50 disabled:pointer-events-none"
-              target="_blank"
-              href="https://t.me/audity_w3bot"
-            >
-              Bot
-            </a>
-          </div>
-        </div>
-
-        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
-          <div className="h-52 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-yellow-500/10  to-indigo-500/0 rounded-t-xl">
-            <img src="img/acedemylogo.svg" className='w-32 p-6 border border-yellow-500/50 bg-neutral-900 rounded-2xl shadow-yellow-600/30 shadow-2xl' />
-          </div>
-          <div className="p-4 md:p-6">
-            <span className="block mb-1 text-xs font-semibold uppercase text-yellow-400">
-            Learning Platform
+            <span className="block mb-4 text-lg font-semibold text-white">
+              Full-service game development from concept to launch.
             </span>
-            <h3 className="text-xl font-semibold text-white">
-              Academy
-            </h3>
-            <p className="mt-3 text-neutral-400">
-            Academy is an AI-powered learning platform that helps users master Web3 concepts, from trading and wallets to setups and strategies. Perfect for beginners and pros alike.
-</p>
-          </div>
-          <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
-            <a aria-disabled className="w-full text-neutral-500 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-            Stage: Development
-            </a>
-            
+            <ul className="mt-4 list-disc list-inside text-neutral-400 space-y-1.5">
+              <li>AAA-quality game development</li>
+              <li>Custom game mechanics and systems</li>
+              <li>Cross-platform optimization</li>
+              <li>Blockchain game integration</li>
+              <li>Multiplayer infrastructure</li>
+            </ul>
           </div>
         </div>
 
-
-        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
-          <div className="h-52 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-cyan-300/10  to-cyan-300/0 rounded-t-xl">
-            <img src="img/swapylogo.svg" className='w-32 p-6 border border-cyan-500/50 bg-neutral-900 shadow-cyan-600/30 shadow-2xl rounded-2xl' />
+        <div className="group flex flex-col h-full bg-neutral-700/30 border border-neutral-600 text-white shadow-md rounded-xl transform transition-transform duration-300 hover:scale-105 dark:bg-neutral-900 dark:shadow-neutral-700/60">
+          <div className="h-6 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-yellow-500/20 to-indigo-500/0 rounded-t-xl">
           </div>
-          <div className="p-4 md:p-6">
-            <span className="block mb-1 text-xs font-semibold uppercase text-cyan-300">
-              Dex Aggregator
+          <div className="p-5 md:p-7">
+            <h3 className="mb-2 text-xl font-bold uppercase text-yellow-400">
+              3D & Visual Design
+            </h3>
+            <span className="block mb-4 text-lg font-semibold text-white">
+              Professional 3D modeling and visual design services.
             </span>
-            <h3 className="text-xl font-semibold text-white">
-              Swapy
-            </h3>
-            <p className="mt-3 text-neutral-400">
-            Swapy combines multiple DEX providers into a single access point to make token swaps seamless and efficient. Invest easily, securely and affordably in just a few steps.
-          </p>
-          </div>
-          <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
-          <a aria-disabled className="w-full text-neutral-500 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-            Stage: Testing
-            </a>
-            
+            <ul className="mt-4 list-disc list-inside text-neutral-400 space-y-1.5">
+              <li>3D modeling and animation</li>
+              <li>Character and environment design</li>
+              <li>Visual effects and cinematics</li>
+              <li>Art direction and brand identity</li>
+              <li>Concept art and storyboarding</li>
+            </ul>
           </div>
         </div>
 
-        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
-          <div className="h-52 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-indigo-500/10  to-indigo-500/0 rounded-t-xl">
-            <img src="img/tradylogo.svg" className='w-32 p-6 border border-indigo-500/50 bg-neutral-900 rounded-2xl shadow-indigo-600/30 shadow-2xl' />
+        <div className="group flex flex-col h-full bg-neutral-700/30 border border-neutral-600 text-white shadow-md rounded-xl transform transition-transform duration-300 hover:scale-105 dark:bg-neutral-900 dark:shadow-neutral-700/60">
+          <div className="h-6 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-cyan-300/20 to-cyan-300/0 rounded-t-xl">
           </div>
-          <div className="p-4 md:p-6">
-            <span className="block mb-1 text-xs font-semibold uppercase text-indigo-400">
-            Trade- & Risk-Management
+          <div className="p-5 md:p-7">
+            <h3 className="mb-2 text-xl font-bold uppercase text-cyan-300">
+              UI/UX Design
+            </h3>
+            <span className="block mb-4 text-lg font-semibold text-white">
+              Creating intuitive and engaging user experiences.
             </span>
-            <h3 className="text-xl font-semibold text-white">
-              Trady
-            </h3>
-            <p className="mt-3 text-neutral-400">
-            Trady is an AI-powered automatic investment bot for tokens, managing investments and payouts seamlessly.
-            </p>
-
-          </div>
-          <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
-          <a aria-disabled className="w-full text-neutral-500 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-            Stage: Development
-            </a>
-            
+            <ul className="mt-4 list-disc list-inside text-neutral-400 space-y-1.5">
+              <li>User interface design</li>
+              <li>Interactive prototypes</li>
+              <li>User experience research</li>
+              <li>Figma workflow implementation</li>
+              <li>Design system development</li>
+            </ul>
           </div>
         </div>
 
-        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
-          <div className="h-52 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-blue-500/10  to-blue-500/0 rounded-t-xl">
-            <img src="img/poolylogo.svg" className='w-32 p-6 border border-blue-500/50 bg-neutral-900 rounded-2xl shadow-blue-600/30 shadow-2xl' />
+        <div className="group flex flex-col h-full bg-neutral-700/30 border border-neutral-600 text-white shadow-md rounded-xl transform transition-transform duration-300 hover:scale-105 dark:bg-neutral-900 dark:shadow-neutral-700/60">
+          <div className="h-6 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-indigo-500/20 to-indigo-500/0 rounded-t-xl">
           </div>
-          <div className="p-4 md:p-6">
-            <span className="block mb-1 text-xs font-semibold uppercase text-blue-400">
-            Liquidity Pools investment
+          <div className="p-5 md:p-7">
+            <h3 className="mb-2 text-xl font-bold uppercase text-indigo-400">
+              AI Chatbots & Support
+            </h3>
+            <span className="block mb-4 text-lg font-semibold text-white">
+              Revolutionize your customer support with intelligent AI solutions.
             </span>
-            <h3 className="text-xl font-semibold text-white">
-            Pooly
-            </h3>
-            <p className="mt-3 text-neutral-400">
-            Pooly simplifies investing in cryptocurrency liquidity pools with a single asset purchase, making it easy for users to participate in DeFi and earn rewards without the complexity of pairings.            </p>
-
-          </div>
-          <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
-          <a aria-disabled className="w-full text-neutral-500 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-            Stage: Development
-            </a>
-            
+            <ul className="mt-4 list-disc list-inside text-neutral-400 space-y-1.5">
+              <li>Real-time automated Web3 support</li>
+              <li>Token-specific trading assistants</li>
+              <li>Multilingual support systems</li>
+              <li>Transaction troubleshooting</li>
+            </ul>
           </div>
         </div>
 
-        <div className="group flex flex-col h-full bg-neutral-700/10 border border-neutral-700 text-white shadow-sm rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/70">
-          <div className="h-52 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-red-500/10  to-red-500/0 rounded-t-xl">
-            <img src="img/lootylogo.svg" className='w-32 p-6 border border-yellow-500/50 bg-neutral-900 rounded-2xl shadow-yellow-600/30 shadow-2xl' />
+        <div className="group flex flex-col h-full bg-neutral-700/30 border border-neutral-600 text-white shadow-md rounded-xl transform transition-transform duration-300 hover:scale-105 dark:bg-neutral-900 dark:shadow-neutral-700/60">
+          <div className="h-6 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-blue-500/20 to-blue-500/0 rounded-t-xl">
           </div>
-          <div className="p-4 md:p-6">
-            <span className="block mb-1 text-xs font-semibold uppercase text-red-400">
-            Interactive Reward System
+          <div className="p-5 md:p-7">
+            <h3 className="mb-2 text-xl font-bold uppercase text-blue-400">
+              Blockchain Integration
+            </h3>
+            <span className="block mb-4 text-lg font-semibold text-white">
+              Unlock the full potential of blockchain technology.
             </span>
-            <h3 className="text-xl font-semibold text-white">
-              Looty
+            <ul className="mt-4 list-disc list-inside text-neutral-400 space-y-1.5">
+              <li>Smart contract development</li>
+              <li>DeFi protocol implementation</li>
+              <li>Cross-chain bridge development</li>
+              <li>Custom token creation</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="group flex flex-col h-full bg-neutral-700/30 border border-neutral-600 text-white shadow-md rounded-xl transform transition-transform duration-300 hover:scale-105 dark:bg-neutral-900 dark:shadow-neutral-700/60">
+          <div className="h-6 flex flex-col justify-center items-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-red-500/20 to-red-500/0 rounded-t-xl">
+          </div>
+          <div className="p-5 md:p-7">
+            <h3 className="mb-2 text-xl font-bold uppercase text-red-400">
+              Enterprise Solutions
             </h3>
-            <p className="mt-3 text-neutral-400">
-            Looty offers a flexible way to strengthen interaction in communities and create new revenue opportunities for project owners.            </p>
-
+            <span className="block mb-4 text-lg font-semibold text-white">
+              End-to-end development for business transformation.
+            </span>
+            <ul className="mt-4 list-disc list-inside text-neutral-400 space-y-1.5">
+              <li>Custom blockchain infrastructure</li>
+              <li>Web3 platform development</li>
+              <li>Legacy system integration</li>
+              <li>Security and compliance</li>
+            </ul>
           </div>
-          <div className="mt-auto flex border-t border-neutral-700 divide-x divide-neutral-700 dark:divide-neutral-700">
-          <a aria-disabled className="w-full text-neutral-500 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-            Stage: Development
-            </a>
-            
-          </div>
         </div>
-      
-       
-      </div>
-    </div>
-  );
-}
-
-function Stats(){
-  return(
-    <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-      <div className="grid gap-6 grid-cols-2 sm:gap-12 lg:grid-cols-4 lg:gap-8">
-        
-        <div className='text-center'>
-          <h4 className="text-lg sm:text-xl font-semibold text-neutral-500">Bots & dApps</h4>
-          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-white">+1</p>
-          <p className="mt-1 text-neutral-400">Live</p>
-        </div>
-
-        <div className='text-center'>
-          <h4 className="text-lg sm:text-xl font-semibold text-neutral-500">Available for</h4>
-          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-white">+1</p>
-          <p className="mt-1 text-neutral-400">Blockchains</p>
-        </div>
-
-        <div className='text-center'>
-          <h4 className="text-lg sm:text-xl font-semibold text-neutral-500">Total Users</h4>
-          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-white">+3</p>
-          <p className="mt-1 text-neutral-400">Across All Our Bots</p>
-        </div>
-     
-        <div className='text-center'>
-          <h4 className="text-lg sm:text-xl font-semibold text-neutral-500">APIs</h4>
-          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-white">0</p>
-          <p className="mt-1 text-neutral-400">Live</p>
-        </div>
-
 
       </div>
     </div>
   );
 }
 
-function JoinWaitlist(){
-  return(
-    <div className="">
-      <div className="mx-auto py-12 sm:px-6 sm:py-12">
-        <div className="mx-4 rounded-xl relative isolate overflow-hidden p-8 border border-neutral-800/30 bg-neutral-900/5 bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-red-500/10 via-red-300/0  to-green-300/0  shadow-2xl sm:rounded-3xl ">
-        
-        <svg  className="absolute inset-0 opacity-10 z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='40' height='59.428' patternTransform='scale(1) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='#0f0f0fff'/><path d='M0 70.975V47.881m20-1.692L8.535 52.808v13.239L20 72.667l11.465-6.62V52.808zm0-32.95l11.465-6.62V-6.619L20-13.24 8.535-6.619V6.619L20 13.24m8.535 4.927v13.238L40 38.024l11.465-6.62V18.166L40 11.546zM20 36.333L0 47.88m0 0v23.094m0 0l20 11.548 20-11.548V47.88m0 0L20 36.333m0 0l20 11.549M0 11.547l-11.465 6.619v13.239L0 38.025l11.465-6.62v-13.24L0 11.548v-23.094l20-11.547 20 11.547v23.094M20 36.333V13.24'  stroke-linejoin='round' stroke-linecap='round' stroke-width='0.5' stroke='#1b1b1bff' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-15,-43.856)' fill='url(#a)'/></svg>
-        
-        <div className='backdrop-blur-sm relative z-30 w-full flex p-4 rounded-xl'>
-            <div className="mx-auto text-center lg:py-16 ">
-              <h2 className="text-5xl font-bold tracking-tight text-white sm:text-8xl">
-                Join Waitlist now!
-              </h2>
-              <p className="mt-6 text-lg leading-8 text-neutral-300">
-              Join discussions on token insights, exchange ideas, and stay updated on our latest updates.
-              </p>
-             
-              <a href="#products" className="mt-12 hover:shadow-xl hover:shadow-white/5 relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white border border-neutral-700 rounded-full hover:text-neutral-900 hover:no-underline group ">
-                <span className="absolute left-0 block w-full h-0 transition-all bg-white/10 opacity-100 group-hover:h-full top-1/2  group-hover:top-0 duration-400 ease"></span>
-                <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease group:hover:text-neutral-100">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                </span>
-                <span className="relative ">Join Waitlist</span>
-              </a>
+function WhyChooseW3BOTS() {
+  return (
+    <div className="relative z-30 max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <h2 className="text-3xl font-bold text-center mb-8 text-white">Why Choose W3BOTS?</h2>
+      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
-            </div>
+        <div className="group flex flex-col h-full bg-neutral-700/30 border border-neutral-600 text-white shadow-md rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/60">
+          
+          <div className="p-5 md:p-7">
+            <h3 className="mb-3 text-xl font-bold text-white">
+              Creative Excellence
+            </h3>
+            <span className="block text-lg font-semibold text-neutral-100">
+              Award-winning team of designers, developers, and artists delivering exceptional digital experiences.
+            </span>
           </div>
         </div>
+
+        <div className="group flex flex-col h-full bg-neutral-700/30 border border-neutral-600 text-white shadow-md rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/60">
+          
+          <div className="p-5 md:p-7">
+            <h3 className="mb-3 text-xl font-bold text-white">
+              Technical Mastery
+            </h3>
+            <span className="block text-lg font-semibold text-neutral-100">
+              Deep expertise in game development, blockchain, and cutting-edge technologies.
+            </span>
+          </div>
+        </div>
+
+        <div className="group flex flex-col h-full bg-neutral-700/30 border border-neutral-600 text-white shadow-md rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/60">
+          
+          <div className="p-5 md:p-7">
+            <h3 className="mb-3 text-xl font-bold text-white">
+              Proven Track Record
+            </h3>
+            <span className="block text-lg font-semibold text-neutral-100">
+              Successfully delivered projects for AAA games and major entertainment brands.
+            </span>
+          </div>
+        </div>
+
+        <div className="group flex flex-col h-full bg-neutral-700/30 border border-neutral-600 text-white shadow-md rounded-xl dark:bg-neutral-900 dark:shadow-neutral-700/60">
+          
+          <div className="p-5 md:p-7">
+            <h3 className="mb-3 text-xl font-bold text-white">
+              End-to-End Support
+            </h3>
+            <span className="block text-lg font-semibold text-neutral-100">
+              Comprehensive support from concept to deployment and beyond.
+            </span>
+          </div>
+        </div>
+
       </div>
     </div>
   );
@@ -321,10 +279,10 @@ function Community(){
         <div className='backdrop-blur-sm relative z-30 w-full flex p-4 rounded-xl'>
             <div className="mx-auto text-center lg:py-16 ">
               <h2 className="text-5xl font-bold tracking-tight text-white sm:text-8xl">
-                Join our Community!
+              Let's Create Something Amazing
               </h2>
               <p className="mt-6 text-lg leading-8 text-neutral-300">
-              Join discussions on token insights, exchange ideas, and stay updated on our latest updates.
+              From game development to blockchain integration, we're ready to bring your vision to life.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
@@ -361,8 +319,8 @@ export default function Home(): JSX.Element {
     <HomepageHeader />
 
       <main>
-      <Stats />
       <Products />
+      <WhyChooseW3BOTS />
       <Community />
       </main>
       </div>
