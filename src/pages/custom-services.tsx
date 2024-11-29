@@ -39,7 +39,7 @@ function HomepageHeader() {
     </div>
 
     <div className="mt-8 gap-3 flex justify-center">
-      <a href="#products" className="hover:shadow-xl hover:shadow-white/5 relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white border border-neutral-700 rounded-full hover:text-neutral-900 hover:no-underline group ">
+      <a href="https://t.me/+t1qAnJclybgwODQy" className="hover:shadow-xl hover:shadow-white/5 relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white border border-neutral-700 rounded-full hover:text-neutral-900 hover:no-underline group ">
         <span className="absolute left-0 block w-full h-0 transition-all bg-white/10 opacity-100 group-hover:h-full top-1/2  group-hover:top-0 duration-400 ease"></span>
         <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease group:hover:text-neutral-100">
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
@@ -279,6 +279,52 @@ function WhyChooseW3BOTS() {
 }
 
 
+<<<<<<< HEAD
+=======
+function Community(){
+  return(
+    <div className="">
+      <div className="mx-auto py-12 sm:px-6 sm:py-12">
+        <div className="mx-4 rounded-xl relative isolate overflow-hidden p-8 border border-neutral-800 bg-neutral-900 bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-blue-500/10 via-indigo-300/0  to-indigo-300/0  shadow-2xl sm:rounded-3xl ">
+        <svg
+          className="absolute inset-0 opacity-10 z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+          aria-hidden="true">
+          <defs>
+            <pattern id="0787a7c5-978c-4f66-83c7-11c213f99cb7" width="400" height="400" x="10%" y="-1"
+              patternUnits="userSpaceOnUse">
+              <path d="M.5 200V.5H200" fill="none"></path>
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" stroke-width="0" fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)"></rect>
+        </svg>
+        <div className='backdrop-blur-sm relative z-30 w-full flex p-4 rounded-xl'>
+            <div className="mx-auto text-center lg:py-16 ">
+              <h2 className="text-3xl font-bold tracking-tight text-white sm:text-6xl">
+              Let's Create Something Amazing
+              </h2>
+              <p className="mt-6 text-lg leading-8 text-neutral-300">
+              From game development to blockchain integration, we're ready to bring your vision to life.
+              </p>
+              <div className="mt-10 flex items-center justify-center gap-x-6">
+                <a
+                  href="https://t.me/+t1qAnJclybgwODQy"
+                  className="text-sm font-semibold text-gray-900 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                >
+                  <img
+                    src="img/telegramlogo.svg"
+                    className="w-40 md:w-64 p-6 rounded-full transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-blue-500"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+>>>>>>> 4b9427614dc951566217e7067c6ffe479b37ece6
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   
