@@ -75,7 +75,7 @@ function SalesManager(){
             <p className="text-lg text-neutral-300 mb-4">Business Development Representative</p>
             <p className="text-neutral-400 mb-6 max-w-xl">Specialized in helping businesses bridge the gap between traditional and Web3 technologies through custom development solutions.</p>
             <a
-              href="https://t.me/JoaoPBTeixeira"
+              href="https://t.me/m/nPSimXr9NDFk"
               target='_blank'
               className="inline-flex items-center gap-2 px-6 py-3 bg-[#0088cc] hover:bg-white transition-colors rounded-lg text-white font-medium"
             >
