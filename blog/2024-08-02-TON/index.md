@@ -1,7 +1,7 @@
 ---
 slug: The TON Blockchain
 title: The Power of the TON Blockchain and Telegram Mini Apps
-author: kostakis
+author: [kostakis]
 tags: [W3BOTS, TON, Telegram, Decentralization, Pooly]
 ---
 
