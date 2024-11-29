@@ -1,7 +1,7 @@
 ---
 slug: 'Building Audity'
 title: 'Your Comprehensive TON Checker with Multichain Support'
-author: [kostakis]
+authors: [kostakis]
 tags: [ 'W3BOTS', 'TON', 'Telegram', 'Decentralization', 'Audity' ]
 ---
 
