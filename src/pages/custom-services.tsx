@@ -66,7 +66,7 @@ function SalesManager(){
       <div className="group relative rounded-xl p-6 sm:p-8 border border-neutral-700 bg-neutral-800/50">
         <div className="flex flex-col sm:flex-row gap-8 items-center">
           <img
-            src="/img/salesmanager.jpeg"
+            src="/img/salesmanager.jpg"
             alt="John Teixeira"
             className="w-32 h-32 rounded-full border-2 border-neutral-700"
           />
